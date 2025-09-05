@@ -1,0 +1,13 @@
+---
+title: "Welcome to my Learning Portal"
+---
+
+![](Assets/Images/logo.png){.lightbox width="20%"}
+
+This is my collection of courses in programming, web development and trading.
+
+## Courses
+
+-   [**C# Programming**](Courses/CSharp/index.qmd) - Learn the fundamentals and advanced features of C#.
+-   [**ASP.NET Core Development**](Courses/ASPNET/index.qmd) - Build powerful web apps using Blazor and modern .NET tools.
+-   [**Forex Trading**](Courses/Forex/index.qmd) - Master strategies, risk management and automation.

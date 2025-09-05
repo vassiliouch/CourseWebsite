@@ -1,0 +1,55 @@
+@use 'variables' as *;
+
+@mixin callout($color, $color-fading, $icon) {
+  border: 0.02rem solid $gray-400;
+  border-left: 0.6rem solid $color;
+  border-radius: 0.4rem;
+  margin: 2rem 0;
+
+  .callout-header {
+    background-color: lighten($color, $color-fading);
+    color: $gray-800;
+    font-weight: 500;
+    padding-left: 3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 0.1rem;
+    border-top-right-radius: 0.4rem;
+    background-image: url($icon);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .callout-container {
+    background-color: $white;
+    color: $gray-800;
+    padding-left: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    border-bottom-right-radius: 0.4rem;
+  }
+}
+
+.info {
+  @include callout($th-info, 55%, 'Assets/Images/info.svg');
+}
+
+.question {
+  @include callout($th-question, 20%, 'Assets/Images/question.svg');
+}
+
+.warning {
+  @include callout($th-warning, 33%, 'Assets/Images/warning.svg');
+}
+
+.danger {
+  @include callout($th-danger, 30%, 'Assets/Images/danger.svg');
+}
+
+.success {
+  @include callout($th-success, 35%, 'Assets/Images/success.svg');
+}
+
+.tip {
+  @include callout($th-tip, 22%, 'Assets/Images/tip.svg');
+}

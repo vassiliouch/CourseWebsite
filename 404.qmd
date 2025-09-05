@@ -1,0 +1,7 @@
+---
+title: Sorry, this page is not available.
+---
+
+<img src="Assets/Images/404.jpg" alt="404 Not Found" class="quo-404-img" fig-align="left"/>
+
+<a href="/" class="quo-404-button">Go to Home page</a>

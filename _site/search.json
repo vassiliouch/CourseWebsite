@@ -1,0 +1,143 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Chris Vassiliou",
+    "section": "",
+    "text": "I am an educator, developer and trader with experience in the areas of:\nI create courses that combine real-world knowledge with practical examples."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Chris Vassiliou",
+    "section": "Education",
+    "text": "Education\nCalifornia State University, Northridge CSUN Los Angeles, USA\nMaster of Science in Computer Engineering | Sep 1984 - Sep 1986\nUniversity of California, Los Angeles UCLA Los Angeles, USA\nBachelor of Science in Mathematics | Sep 1980 – Sep 1984"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Chris Vassiliou",
+    "section": "Experience",
+    "text": "Experience\nHellenic American Union - Athens\nProctor | May 2024 – present\n\nMagna Trust Securities & Investment Services S.A. - Athens\nSenior Operations Manager | Sep 2019 – Dec 2024\nPresident & CEO | Mar 2016 – Oct 2018\nRisk Manager | Mar 2015 – Mar 2016\n\nPiraeus Bank - Athens\nAssistant Manager – Risk Management | Mar 2012 – Dec 2014\nSenior Business Analyst – Credit Division | Mar 2008 – Mar 2012\nDeveloper – IT Division | Mar 1999 – Mar 2008\n\nNational Westminster Bank - Athens\nSoftware Engineer – IT Department | Sep 1994 – Mar 1999\n\nNational Bank of Greece - Athens\nSoftware Engineer – IT Department | Aug 1993 – Aug 1994\n\nAthens College - Athens\nInstructor - Computer Science Department | Sep 1991 – May 1993\n\nSoutheastern College - Athens\nInstructor - Computer Science Department | Mar 1987 – Sep 1990"
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03-Iterations.html",
+    "href": "Courses/CSharp/Ch03-Iterations.html",
+    "title": "Chapter 3 - Iterations",
+    "section": "",
+    "text": "Chapter 3 - Iterations\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 3 - Iterations"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01-LanguageBasics.html",
+    "href": "Courses/CSharp/Ch01-LanguageBasics.html",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nEx.1▶Ex.2▶\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nEx.1 :\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nEx.2 :\nThis is line one.\nThis is line two.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01-LanguageBasics.html#output-methods",
+    "href": "Courses/CSharp/Ch01-LanguageBasics.html#output-methods",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nEx.1▶Ex.2▶\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nEx.1 :\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nEx.2 :\nThis is line one.\nThis is line two.",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01-LanguageBasics.html#comments",
+    "href": "Courses/CSharp/Ch01-LanguageBasics.html#comments",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "What is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01-LanguageBasics.html#variables-and-data-types",
+    "href": "Courses/CSharp/Ch01-LanguageBasics.html#variables-and-data-types",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch02-DecisionMaking.html",
+    "href": "Courses/CSharp/Ch02-DecisionMaking.html",
+    "title": "Chapter 2 - Decision Making",
+    "section": "",
+    "text": "Chapter 2 - Decision Making\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 2 - Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/index.html",
+    "href": "Courses/CSharp/index.html",
+    "title": "C# Programming",
+    "section": "",
+    "text": "Chapter 1 - Language Basics\nChapter 2 - Decision Making\nChapter 3 - Iterations (loops)",
+    "crumbs": [
+      "Courses",
+      "C# Programming"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/index.html#syllabus",
+    "href": "Courses/CSharp/index.html#syllabus",
+    "title": "C# Programming",
+    "section": "",
+    "text": "Chapter 1 - Language Basics\nChapter 2 - Decision Making\nChapter 3 - Iterations (loops)",
+    "crumbs": [
+      "Courses",
+      "C# Programming"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my Learning Portal",
+    "section": "",
+    "text": "This is my collection of courses in programming, web development and trading."
+  },
+  {
+    "objectID": "index.html#courses",
+    "href": "index.html#courses",
+    "title": "Welcome to my Learning Portal",
+    "section": "Courses",
+    "text": "Courses\n\nC# Programming - Learn the fundamentals and advanced features of C#.\nASP.NET Core Development - Build powerful web apps using Blazor and modern .NET tools.\nForex Trading - Master strategies, risk management and automation."
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01-LanguageBasics.html#what-is-a-comment",
+    "href": "Courses/CSharp/Ch01-LanguageBasics.html#what-is-a-comment",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "A comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.",
+    "crumbs": [
+      "Courses",
+      "C# Programming",
+      "Chapter 1 - Language Basics"
+    ]
+  }
+]

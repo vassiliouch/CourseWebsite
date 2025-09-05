@@ -1,0 +1,11 @@
+---
+title: "C# Programming"
+---
+
+## Syllabus
+
+Chapter 1 - Language Basics
+
+Chapter 2 - Decision Making
+
+Chapter 3 - Iterations (loops)

@@ -1,0 +1,42 @@
+/*-- scss:rules --*/
+
+//*******************************************************************
+// Tables.
+//*******************************************************************
+.table {
+  border: $th-border;
+  border-collapse: collapse;
+  //box-shadow: $th-shadow;
+  width: 100%;
+
+  th, td {
+    border: $th-border;
+  }
+
+  th {
+    background-color: $th-table-header-bg;
+    color: $th-table-header-text;
+    font-weight: 500;
+  }
+
+  td {
+    // Note : Do not set a background color for td because it will override the zebra stripes below!
+    color: $th-table-row-text;
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background-color: $th-table-row-bg;
+      }
+      
+      &:nth-child(even) {
+        background-color: $th-table-zebra-bg;
+      }
+
+      &:hover td {
+        background-color: $th-table-hover-bg !important; // Ensure hover color takes precedence
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Chapter 2 - Decision Making
+
+::: {.callout-caution title = "What is a comment ?" icon = false}
+
+-   A comment is a text note that is ignored by a program.
+
+-   It helps document a program for better readability and understanding of logic.
+
+-   It temporarily disables part of a program during debugging.
+
+:::

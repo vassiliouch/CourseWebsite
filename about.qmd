@@ -1,0 +1,71 @@
+---
+title: "Chris Vassiliou"
+
+about:
+  template: solana
+  image: Assets/Images/myPhoto.jpg
+  image-shape: round
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vassiliouch/
+      target: _blank <!-- Open in a new browser tab. -->
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/vassiliouch/
+      target: _blank
+
+    - icon: substack
+      text: Blog
+      
+    - icon: file-person-fill
+      text: Resume
+      href: Assets/PDFs/resume.pdf
+      target: _blank 
+---
+
+I am an educator, developer and trader with experience in the areas of:
+
+-   **Banking**
+
+-   **Financial Markets**
+
+-   **Software Engineering**
+
+I create courses that combine real-world knowledge with practical examples.
+
+## [Education]{style="color:#1a73e8;"}
+
+**California State University, Northridge** [**CSUN**](https://www.csun.edu) Los Angeles, USA\
+Master of Science in Computer Engineering \| Sep 1984 - Sep 1986
+
+**University of California, Los Angeles** [**UCLA**](https://www.ucla.edu) Los Angeles, USA\
+Bachelor of Science in Mathematics \| Sep 1980 – Sep 1984
+
+## [Experience]{style="color:#1a73e8;"}
+
+**Hellenic American Union** - Athens\
+Proctor \| May 2024 – present\
+
+**Magna Trust Securities & Investment Services S.A.** - Athens\
+Senior Operations Manager \| Sep 2019 – Dec 2024\
+President & CEO \| Mar 2016 – Oct 2018\
+Risk Manager \| Mar 2015 – Mar 2016\
+
+**Piraeus Bank** - Athens\
+Assistant Manager – Risk Management \| Mar 2012 – Dec 2014\
+Senior Business Analyst – Credit Division \| Mar 2008 – Mar 2012\
+Developer – IT Division \| Mar 1999 – Mar 2008\
+
+**National Westminster Bank** - Athens\
+Software Engineer – IT Department \| Sep 1994 – Mar 1999\
+
+**National Bank of Greece** - Athens\
+Software Engineer – IT Department \| Aug 1993 – Aug 1994\
+
+**Athens College** - Athens\
+Instructor - Computer Science Department \| Sep 1991 – May 1993\
+
+**Southeastern College** - Athens\
+Instructor - Computer Science Department \| Mar 1987 – Sep 1990\

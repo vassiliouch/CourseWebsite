@@ -1,0 +1,32 @@
+{
+  "Courses/CSharp/Ch01-LanguageBasics.qmd": {
+    "Ch01-LanguageBasics.html": "e2ba2d03"
+  },
+  "index.qmd": {
+    "index.html": "ac317967"
+  },
+  "about.qmd": {
+    "about.html": "20bf333f"
+  },
+  "Courses/ASPNET/index.qmd": {
+    "index.html": "ad2c40d5"
+  },
+  "Courses/Forex/index.qmd": {
+    "index.html": "2fcd37ee"
+  },
+  "Courses/CSharp/index.qmd": {
+    "index.html": "d7a047e5"
+  },
+  "about2.qmd": {
+    "about2.html": "79923ff5"
+  },
+  "404.qmd": {
+    "404.html": "9c5be225"
+  },
+  "Courses/CSharp/Ch02-DecisionMaking.qmd": {
+    "Ch02-DecisionMaking.html": "6461ede7"
+  },
+  "Courses/CSharp/Ch03-Iterations.qmd": {
+    "Ch03-Iterations.html": "114497c0"
+  }
+}

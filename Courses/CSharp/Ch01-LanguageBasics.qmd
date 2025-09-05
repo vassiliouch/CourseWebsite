@@ -1,0 +1,74 @@
+# Chapter 1 - Language Basics
+
+## Output Methods
+
+There are basically two methods used to print information within a program.
+
+| Method              | Description                                   |
+|---------------------|-----------------------------------------------|
+| Console.Write()     | Prints info on a line.                        |
+| Console.WriteLine() | Prints info on a line followed by a new line. |
+
+<br><br>
+
+::: panel-tabset
+## Ex.1
+
+``` csharp
+Console.Write("This is line one.");
+Console.Write("This is line two.");
+```
+
+## ▶
+
+Ex.1 :\
+**This is line one.This is line two.**
+
+## Ex.2
+
+``` csharp
+Console.WriteLine("This is line one.");
+Console.WriteLine("This is line two.");
+```
+
+## ▶
+
+Ex.2 :\
+**This is line one.\
+This is line two.**
+:::
+
+<br>
+
+## Comments
+
+::: {.callout-caution title = "What is a comment ?" icon = false}
+
+-   A comment is a text note that is ignored by a program.
+
+-   It helps document a program for better readability and understanding of logic.
+
+-   It temporarily disables part of a program during debugging.
+
+:::
+
+<br>
+
+::: {.callout-note title = "Types of comments"}
+
+1.  Single-line comment. Begins with /
+
+2.  Multiple-line comment. Begins with /\* and ends with \*/
+
+:::
+
+## Variables and Data Types
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+  D --> F
+```

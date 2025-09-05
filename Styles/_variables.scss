@@ -1,0 +1,120 @@
+/*-- scss:defaults --*/
+
+//*******************************************************************
+// Basic palette. 
+//*******************************************************************
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6b717f !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #0078d7 !default;
+$indigo:  #6610f2 !default;
+$purple:  #be82fa !default;
+$pink:    #cf649a !default;
+$red:     #f56565 !default;
+$orange:  #fa984a !default;
+$yellow:  #ffe484 !default;
+$green:   #68d391 !default;
+$teal:    #2ed3be !default;
+$cyan:    #22d2ed !default;
+$lime:    #a2e436 !default;
+
+//*******************************************************************
+// Theme variables.
+//*******************************************************************
+$th-page-bg: $white !default;
+$th-page-text: $gray-800 !default;
+
+$th-navbar-bg: $gray-100 !default;
+$th-navbar-text: $gray-800 !default;
+$th-navbar-active-text: $pink !default;
+
+$th-dropdown-bg: $white !default;
+$th-dropdown-text: $gray-800 !default;
+$th-dropdown-hover-bg: $pink !default;
+$th-dropdown-hover-text: $white !default;
+
+$th-sidebar-bg: $white !default;
+$th-sidebar-text: $gray-800 !default;
+$th-sidebar-hover-bg: lighten($pink, 30%) !default;
+
+$th-table-header-bg: lighten($gray-800, 35%) !default;
+$th-table-header-text: $white !default;
+$th-table-row-bg: $white !default;
+$th-table-row-text: $gray-800 !default;
+$th-table-zebra-bg: $gray-100 !default;
+$th-table-hover-bg: lighten($yellow, 10%) !default;
+
+$th-border: 0.02rem solid $gray-400 !default;
+$th-shadow: 0.2rem 0.2rem 0.4rem $gray-400 !default;
+
+$th-link-hover-text: $pink !default;
+
+$th-footer-bg: $pink !default;
+$th-footer-text: $white !default;
+
+// Callout theme colors.
+$th-info: $blue !default;
+$th-question: $yellow !default;
+$th-warning: $orange !default;
+$th-danger: $red !default;
+$th-success: $green !default;
+$th-tip: $purple !default;
+
+//*******************************************************************
+// Bootstrap's Sass variables.
+// Assign theme variables only.
+//*******************************************************************
+
+// Colors.
+$body-bg: $th-page-bg !default;
+$body-color: $th-page-text !default;
+$link-color: $th-page-text !default;
+$link-hover-color: $th-link-hover-text !default;
+
+// Navigation.
+$sidebar-bg: $th-sidebar-bg;
+$sidebar-fg: $th-sidebar-text;
+
+// TOC.
+$toc-color: $th-sidebar-text !default;
+$toc-active-border: $th-sidebar-bg !default;
+$toc-inactive-border: $th-sidebar-bg !default;
+
+// Tabs.
+$nav-tabs-border-color: $gray-400 !default;                // Container border color.
+$nav-tabs-border-width: 0.02rem !default;                  // Tab and container border width.
+//$nav-tabs-link-hover-border-color: $red !default;      // Hover border color.
+//$nav-tabs-link-active-color: $th-link-hover-text !default;            // Active tab text color.
+//$nav-tabs-link-active-bg: $white !default;                 // Active tab background color.
+//$nav-tabs-link-active-border-color: $gray-400 !default;    // Active tab border color.
+
+// Code blocks.
+$code-block-bg: $white !default;
+$btn-code-copy-color: $gray-800 !default;
+$btn-code-copy-color-active: $pink !default;
+
+// Footer.
+$footer-bg: $th-footer-bg !default;
+$footer-fg: $th-footer-text !default;
+
+// Options.
+$enable-rounded: true !default; // Softens tab corners.
+$enable-shadows: true !default; // Turns on dropdown/submenu shadows.
+
+/*
+//
+// Buttons
+//
+$btn-color: $red !default;
+
+*/
+

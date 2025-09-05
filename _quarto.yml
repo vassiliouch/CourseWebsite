@@ -1,0 +1,114 @@
+############################################################
+# Project.
+############################################################
+project:
+  type: website
+  resources:
+    - Assets/PDFs/resume.pdf
+
+############################################################
+# Language.
+############################################################
+language:
+  search-text-placeholder: Search
+
+############################################################
+# Website.
+############################################################
+website:
+  favicon: Assets/Images/logo.png
+  title: ""
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  bread-crumbs: false
+  search:
+    location: navbar
+    type: textbox
+    copy-button: true
+    show-item-context: true
+
+  navbar:
+    logo: Assets/Images/logo.png
+    pinned: true
+    left:
+      - text: Home
+        href: index.qmd
+      
+      - text: "Courses"
+        menu:
+          - text: C# Programming
+            href: Courses/CSharp/index.qmd
+
+          - text: ASP.NET Core Development
+            href: Courses/ASPNET/index.qmd
+
+          - text: Forex Trading
+            href: Courses/Forex/index.qmd                         
+
+      - text: Articles
+
+      - text: Presentations
+
+      - text: Dashboards
+
+      - text: Blog
+
+      - text: How-to
+
+      - text: About
+        href: about.qmd
+
+  sidebar:
+    - id: CSharp
+      style: docked
+      alignment: left
+      border: false
+      contents: CSharp/*
+        #- Courses/CSharp/index.qmd
+        #- Courses/CSharp/Ch01-LanguageBasics.qmd
+        #- Courses/CSharp/Ch02-DecisionMaking.qmd
+
+  page-footer: 
+    left: |
+      <p>
+        © {{< var copyright-years >}} Clarity & Vision <br>
+        Licensed under [Creative Commons]({{< var creativecommons-url >}}) CC BY 4.0
+      </p>
+    right: |
+      <p>
+        Built with [Quarto]({{< var quarto-url >}})
+      </p>
+    border: false
+
+############################################################
+# Format.
+############################################################
+format:
+  html:
+    theme:
+      light: Styles/theme.scss
+    respect-user-color-scheme: true  
+
+    #css: styles.scss
+
+    anchor-sections: true
+    smooth-scroll: true
+    tbl-cap-location: bottom  
+    
+    toc: true
+    toc-title: Page Contents
+    toc-location: right
+
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+
+    link-external-icon: true
+    link-external-newwindow: true  
+    
+    
+    
+    #embed-resources: true

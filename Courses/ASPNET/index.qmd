@@ -1,5 +1,4 @@
 ---
 title: "ASP.NET Core Development"
+title-block-banner: "#003e83"
 ---
-
-##

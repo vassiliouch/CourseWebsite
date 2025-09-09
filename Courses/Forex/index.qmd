@@ -1,5 +1,4 @@
 ---
 title: "Forex Trading"
+title-block-banner: "#01652b"
 ---
-
-##

@@ -28,5 +28,41 @@
   },
   "Courses/CSharp/Ch03-Iterations.qmd": {
     "Ch03-Iterations.html": "114497c0"
+  },
+  "Courses/CSharp/syllabus.qmd": {
+    "syllabus.html": "19aeec0d"
+  },
+  "Courses/CSharp/ch01-language-basics.qmd": {
+    "ch01-language-basics.html": "2ebc72db"
+  },
+  "Courses/CSharp/ch02-decision-making.qmd": {
+    "ch02-decision-making.html": "2ce74257"
+  },
+  "Courses/CSharp/ch03-iterations.qmd": {
+    "ch03-iterations.html": "bff31c51"
+  },
+  "Courses/CSharp/exercises.qmd": {
+    "exercises.html": "6348b65a"
+  },
+  "Courses/CSharp/assignments.qmd": {
+    "assignments.html": "7125a01d"
+  },
+  "Courses/CSharp/appendices.qmd": {
+    "appendices.html": "1db41354"
+  },
+  "Courses/CSharp/references.qmd": {
+    "references.html": "b372bea9"
+  },
+  "Courses/CSharp/Appendices/Appendix A - Binary System.qmd": {
+    "Appendix A - Binary System.html": "da7f8ea4"
+  },
+  "Courses/CSharp/Appendices/appendixA-binary-system.qmd": {
+    "appendixA-binary-system.html": "e7ce0793"
+  },
+  "HowTo/fx-custom-explosion-indicator.qmd": {
+    "fx-custom-explosion-indicator.html": "5687a8c5"
+  },
+  "HowTo/index.qmd": {
+    "index.html": "bfccd73c"
   }
 }

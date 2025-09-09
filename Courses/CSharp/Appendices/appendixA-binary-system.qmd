@@ -1,0 +1,86 @@
+# Appendix A - Binary System
+
+## What is Binary?
+
+The **binary system** (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits \[0-9\], binary uses only **two digits** \[0,1\].
+
+0 → OFF / False
+
+1 → ON / True
+
+## Converting Binary to Decimal
+
+Each binary digit (bit) has a place value that is a power of 2:
+
+|             |           |          |          |          |          |
+|-------------|----------:|---------:|---------:|---------:|---------:|
+| Binary      |         1 |        0 |        1 |        1 |        0 |
+| Place       |         4 |        3 |        2 |        1 |        0 |
+| Place value | 2^4^ = 16 | 2^3^ = 8 | 2^2^ = 4 | 2^1^ = 2 | 2^0^ = 1 |
+| Value       |  (1 x 16) |  (0 x 8) |  (1 x 4) |  (1 x 2) |  (0 x 1) |
+
+So 10110~2~ = (1 x 16) + (0 x 8) + (1 x 4) + (1 x 2) + (0 x 1) = 16 + 0 + 4 + 2 + 0 = 22~10~
+
+## Converting Decimal to Binary
+
+Convert decimal 45 to binary by repeated division by 2, collecting remainders:
+
+| Division Steps | Quotient | Remainder |
+|----------------|---------:|----------:|
+| 45 ÷ 2         |       22 |         <span style="color:red; font-weight:bold;">1</span> |
+| 22 ÷ 2         |       11 |         <span style="color:red; font-weight:bold;">0</span> |
+| 11 ÷ 2         |        5 |         <span style="color:red; font-weight:bold;">1</span> |
+| 5 ÷ 2          |        2 |         <span style="color:red; font-weight:bold;">1</span> |
+| 2 ÷ 2          |        1 |         <span style="color:red; font-weight:bold;">0</span> |
+| 1 ÷ 2          |        0 |         <span style="color:red; font-weight:bold;">1</span> |
+
+Read remainders from bottom to top: 101101
+
+So 45~10~ = 101101~2~
+
+## Binary Addition (Digit-by-Digit)
+
+Example: 1011~2~ (11) + 1101~2~ (13)
+
+Add from LSB to MSB, tracking carry:
+
+1 0 1 1
+
+1 1 0 1 +
+
+| Addition Steps | Sum Bit | Carry Bit |
+|----------------|--------:|----------:|
+| 1 + 1          |       <span style="color:red; font-weight:bold;">0</span> |         1 |
+| 1 + 0 + 1      |       <span style="color:red; font-weight:bold;">0</span> |         1 |
+| 0 + 1 + 1      |       <span style="color:red; font-weight:bold;">0</span> |         1 |
+| 1 + 1 + 1      |       <span style="color:red; font-weight:bold;">1</span> |         <span style="color:red; font-weight:bold;">1</span> |
+
+Final carry becomes new MSB
+
+Result bits (MSB→LSB): 1 1 0 0 0
+
+So 1011~2~ + 1101~2~ = 11000~2~ = 24~10~
+
+## Negative Numbers
+
+Computers usually use two’s complement.
+
+To get a negative number, invert all its bits and add 1.
+
++5 = 00000101
+
+Invert → 11111010
+
+Add 1 → 11111011
+
+## Binary Subtraction
+
+Usually done by adding the two’s complement of the the number to be subtracted.
+
+Example: 7 - 3 = 4:
+
+7 = 0111
+
+3 = 0011 → two’s complement: invert 1100 + 1 = 1101
+
+Add: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4

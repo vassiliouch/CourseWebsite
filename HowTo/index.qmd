@@ -1,0 +1,14 @@
+---
+title: "How-To Guides"
+description: "A collection of step-by-step tutorials and guides."
+listing:
+  contents:
+    - "../HowTo/*.qmd"  
+  type: grid
+  sort: "date desc"   # show newest first
+  date-format: medium
+  fields: [image, date, title, author, reading-time]
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---

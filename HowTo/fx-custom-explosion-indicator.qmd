@@ -1,0 +1,185 @@
+---
+title: "How to Build a Custom Explosion Indicator in cTrader"
+author: "Chris Vassiliou"
+description: "Learn how to implement a custom explosion indicator in C# using cTrader’s API, combining MACD, Bollinger Bands and ATR."
+date: 2025-09-09
+categories: ["Forex Indicators"]
+tags: ["cTrader", "cAlgo", "C#", "Technical Indicators"]
+image: ../HowTo/fx-custom-explosion-indicator.png
+---
+
+## Overview
+
+In this guide, we’ll create a **Custom Explosion Indicator** for cTrader using **cAlgo API** in C#.\
+The indicator combines three technical tools:
+
+-   **MACD** (for trend direction)\
+-   **Bollinger Bands** (for market volatility width)\
+-   **ATR** (for dynamic thresholding)
+
+It outputs bullish/bearish trend histograms, an explosion line, a threshold line and buy/sell signals when conditions are met.
+
+------------------------------------------------------------------------
+
+## Prerequisites
+
+Before starting, you should have:
+
+-   Basic familiarity with **C# programming**.\
+-   cTrader installed (with access to the **cAlgo API**).\
+-   Understanding of MACD, Bollinger Bands and ATR indicators.
+
+------------------------------------------------------------------------
+
+## Step 1 — Define Input Parameters
+
+We start by exposing configurable parameters for Bollinger Bands and MACD:
+
+``` csharp
+[Parameter("Period", Group = "Bollinger Bands", DefaultValue = 10)]
+public int InpBBPeriod { get; set; }
+
+[Parameter("Standard Deviation", Group = "Bollinger Bands", DefaultValue = 2, MinValue = 0)]
+public double InpBBStDev { get; set; }
+
+[Parameter("Long Period", Group = "MACD", DefaultValue = 20)]
+public int InpMACDLongPeriod { get; set; }
+
+[Parameter("Short Period", Group = "MACD", DefaultValue = 10)]
+public int InpMACDShortPeriod { get; set; }
+```
+
+## Step 2 — Declare Outputs
+
+We define the output series (plotted on the chart):
+
+-   Bullish & Bearish trend histograms.
+
+-   Explosion and Threshold lines.
+
+-   Buy & Sell signals (plotted as points).
+
+``` csharp
+[Output("Bullish Trend", LineColor = "DarkGreen", PlotType = PlotType.Histogram, Thickness = 5)]
+public IndicatorDataSeries BullishTrend { get; set; }
+
+[Output("Bearish Trend", LineColor = "Maroon", PlotType = PlotType.Histogram, Thickness = 5)]
+public IndicatorDataSeries BearishTrend { get; set; }
+
+[Output("Explosion", LineColor = "Red", PlotType = PlotType.Line,Thickness = 1)]
+public IndicatorDataSeries Explosion { get; set; }
+
+[Output("Threshold", LineColor = "Yellow", PlotType = PlotType.Line, Thickness = 1)]
+public IndicatorDataSeries Threshold { get; set; }
+
+[Output("Buy Signal", LineColor = "Lime", PlotType = PlotType.Points, Thickness = 5)]
+public IndicatorDataSeries BuySignal { get; set; }
+
+[Output("Sell Signal", LineColor = "Magenta", PlotType = PlotType.Points, Thickness = 5)]
+public IndicatorDataSeries SellSignal { get; set; }
+```
+
+## Step 3 — Initialize Indicators
+
+Inside Initialize(), we set up references to MACD, Bollinger Bands and ATR:
+
+``` csharp
+private MacdCrossOver mMACD;
+private BollingerBands mBB;
+private AverageTrueRange mATR;
+private double TrendDir;
+
+protected override void Initialize()
+{
+    mMACD = Indicators.MacdCrossOver(Bars.ClosePrices, InpMACDLongPeriod, InpMACDShortPeriod, 9);
+    mBB   = Indicators.BollingerBands(Bars.ClosePrices, InpBBPeriod, InpBBStDev, MovingAverageType.Simple);
+    mATR  = Indicators.AverageTrueRange(14, MovingAverageType.Exponential);
+}
+```
+
+## Step 4 — Implement the Logic
+
+The core of the indicator is in the Calculate() method:
+
+-   Reset buy/sell signals.
+
+-   Measure trend direction from MACD slope.
+
+-   Plot bullish/bearish histograms.
+
+-   Compute Explosion as BB width.
+
+-   Compute Threshold as ATR × 5.
+
+-   Generate signals if explosion and trend exceed thresholds.
+
+``` csharp
+public override void Calculate(int i)
+{
+    BuySignal[i] = double.NaN;
+    SellSignal[i] = double.NaN;            
+
+    TrendDir = (mMACD.MACD[i] - mMACD.MACD[i - 1]) * 100;
+
+    if (TrendDir >= 0)
+       BullishTrend[i] = TrendDir;
+    else
+       BearishTrend[i] = -1 * TrendDir;
+
+    Explosion[i] = mBB.Top[i] - mBB.Bottom[i];
+    Threshold[i] = mATR.Result[i] * 5.0;
+
+    bool BullishTrendGreaterThanExplosion = BullishTrend[i] > Explosion[i];
+    bool BearishTrendGreaterThanExplosion = BearishTrend[i] > Explosion[i];
+    bool BullishTrendGreaterThanThreshold = BullishTrend[i] > Threshold[i];
+    bool BearishTrendGreaterThanThreshold = BearishTrend[i] > Threshold[i];
+    bool ExplosionGreaterThanThreshold = Explosion[i] > Threshold[i];
+
+    if (BullishTrendGreaterThanExplosion && BullishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)
+        BuySignal[i] = BullishTrend[i];
+    else if (BearishTrendGreaterThanExplosion && BearishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)
+        SellSignal[i] = BearishTrend[i];
+}
+```
+
+## Step 5 — Use the Indicator
+
+-   Attach the indicator to a chart in cTrader.
+
+-   Adjust Bollinger Band period, MACD parameters and threshold multiplier to fit your strategy.
+
+-   Buy signals (green points) appear during bullish explosions.
+
+-   Sell signals (magenta points) appear during bearish explosions.
+   
+## Indicator Screenshot
+
+Here’s how the **Custom Explosion Indicator** looks in cTrader:
+
+![Custom Explosion Indicator screenshot](../HowTo/fx-custom-explosion-indicator.png){.lightbox}
+
+## Troubleshooting & Tips
+
+-   If signals are too frequent, increase the ATR multiplier.
+
+-   If signals are too rare, decrease the ATR multiplier or shorten MACD periods.
+
+-   Works best on volatile instruments like US30 or NASDAQ.
+
+## Summary
+
+We have built a Custom Explosion Indicator in cTrader by combining MACD, Bollinger Bands and ATR. This indicator detects strong bullish or bearish bursts (explosions) and highlights potential entry points.
+
+## Further Reading
+
+[cTrader Automate API Documentation](https://help.ctrader.com/ctrader-algo/how-tos-index/)
+
+[MACD Indicator Basics](https://www.investopedia.com/terms/m/macd.asp)
+
+[Bollinger Bands](https://www.bollingerbands.com/)
+
+[ATR Explained](https://www.investopedia.com/terms/a/atr.asp)
+
+## Download Source Code
+
+[📥 Download Source](../HowTo/fx-custom-explosion-indicator.cs){.btn .btn-primary .text-white download="CustomExplosion.cs"}

@@ -27,8 +27,6 @@
     "section": "",
     "text": "Chapter 3 - Iterations\n\n\n\n\n Back to top",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 3 - Iterations"
     ]
   },
@@ -39,8 +37,6 @@
     "section": "",
     "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nEx.1▶Ex.2▶\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nEx.1 :\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nEx.2 :\nThis is line one.\nThis is line two.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 1 - Language Basics"
     ]
   },
@@ -51,8 +47,6 @@
     "section": "",
     "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nEx.1▶Ex.2▶\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nEx.1 :\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nEx.2 :\nThis is line one.\nThis is line two.",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 1 - Language Basics"
     ]
   },
@@ -63,8 +57,6 @@
     "section": "",
     "text": "What is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 1 - Language Basics"
     ]
   },
@@ -75,8 +67,6 @@
     "section": "",
     "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 1 - Language Basics"
     ]
   },
@@ -87,8 +77,6 @@
     "section": "",
     "text": "Chapter 2 - Decision Making\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
-      "Courses",
-      "C# Programming",
       "Chapter 2 - Decision Making"
     ]
   },
@@ -97,9 +85,8 @@
     "href": "Courses/CSharp/index.html",
     "title": "C# Programming",
     "section": "",
-    "text": "Chapter 1 - Language Basics\nChapter 2 - Decision Making\nChapter 3 - Iterations (loops)",
+    "text": "Describe what this course is all about and describe course details and content.\n\n\n\n Back to top",
     "crumbs": [
-      "Courses",
       "C# Programming"
     ]
   },
@@ -119,14 +106,14 @@
     "href": "index.html",
     "title": "Welcome to my Learning Portal",
     "section": "",
-    "text": "This is my collection of courses in programming, web development and trading."
+    "text": "This is my collection of courses in programming, web development and trading.\n\n\n C# Programming - Learn the fundamentals and advanced features of C#.\n ASP.NET Core Development - Build powerful web apps using Blazor and modern .NET tools.\n Forex Trading - Master strategies, risk management and automation.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html#courses",
     "href": "index.html#courses",
     "title": "Welcome to my Learning Portal",
     "section": "Courses",
-    "text": "Courses\n\nC# Programming - Learn the fundamentals and advanced features of C#.\nASP.NET Core Development - Build powerful web apps using Blazor and modern .NET tools.\nForex Trading - Master strategies, risk management and automation."
+    "text": "Courses\n\n\nC# Programming - Learn the fundamentals and advanced features of C#.\nASP.NET Core Development - Build powerful web apps using Blazor and modern .NET tools.\nForex Trading - Master strategies, risk management and automation."
   },
   {
     "objectID": "Courses/CSharp/Ch01-LanguageBasics.html#what-is-a-comment",
@@ -139,5 +126,521 @@
       "C# Programming",
       "Chapter 1 - Language Basics"
     ]
+  },
+  {
+    "objectID": "Courses/CSharp/syllabus.html",
+    "href": "Courses/CSharp/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Syllabus\nThis is the C# Programming syllabus.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch02-decision-making.html",
+    "href": "Courses/CSharp/ch02-decision-making.html",
+    "title": "Chapter 2 - Decision Making",
+    "section": "",
+    "text": "Chapter 2 - Decision Making\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2 - Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html",
+    "href": "Courses/CSharp/ch01-language-basics.html",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#output-methods",
+    "href": "Courses/CSharp/ch01-language-basics.html#output-methods",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#comments",
+    "href": "Courses/CSharp/ch01-language-basics.html#comments",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "What is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#variables-and-data-types",
+    "href": "Courses/CSharp/ch01-language-basics.html#variables-and-data-types",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch03-iterations.html",
+    "href": "Courses/CSharp/ch03-iterations.html",
+    "title": "Chapter 3 - Iterations",
+    "section": "",
+    "text": "Chapter 3 - Iterations\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Chapter 3 - Iterations"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/exercises.html",
+    "href": "Courses/CSharp/exercises.html",
+    "title": "Exercices",
+    "section": "",
+    "text": "Exercices\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Exercises",
+      "Exercices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/assignments.html",
+    "href": "Courses/CSharp/assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Assignments\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignments",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html",
+    "href": "Courses/CSharp/appendices.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "Appendices\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/references.html",
+    "href": "Courses/CSharp/references.html",
+    "title": "References",
+    "section": "",
+    "text": "References\n\n\n\n\n Back to top",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "Courses/ASPNET/index.html",
+    "href": "Courses/ASPNET/index.html",
+    "title": "ASP.NET Core Development",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Courses/Forex/index.html",
+    "href": "Courses/Forex/index.html",
+    "title": "Forex Trading",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#what-is-binary",
+    "href": "Courses/CSharp/appendices.html#what-is-binary",
+    "title": "Appendices",
+    "section": "What is binary?",
+    "text": "What is binary?\nThe binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#converting-binary-to-decimal",
+    "href": "Courses/CSharp/appendices.html#converting-binary-to-decimal",
+    "title": "Appendices",
+    "section": "Converting binary to decimal",
+    "text": "Converting binary to decimal\nEach binary digit (bit) has a place value that is a power of 2:\nBinary: 1 0 1 1 0\nPower: 16 8 4 2 1\nValue: 16 + 0 + 4 + 2 + 0 = 22\nSo 10110₂ = 22₁₀",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#converting-decimal-to-binary",
+    "href": "Courses/CSharp/appendices.html#converting-decimal-to-binary",
+    "title": "Appendices",
+    "section": "Converting decimal to binary",
+    "text": "Converting decimal to binary\nConvert decimal 45 to binary by repeated division by 2, collecting remainders:\n45 ÷ 2 = 22 remainder 1\n22 ÷ 2 = 11 remainder 0\n11 ÷ 2 = 5 remainder 1\n5 ÷ 2 = 2 remainder 1\n2 ÷ 2 = 1 remainder 0\n1 ÷ 2 = 0 remainder 1\nRead remainders from bottom to top: 101101\nSo 45₁₀ = 101101₂",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#binary-arithmetic",
+    "href": "Courses/CSharp/appendices.html#binary-arithmetic",
+    "title": "Appendices",
+    "section": "Binary arithmetic",
+    "text": "Binary arithmetic\n\nBinary addition (digit-by-digit)\nExample: 1011₂ (11) + 1101₂ (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\nstep 0 (LSB): 1 + 1 = 0, carry = 1\nstep 1: 1 + 0 + 1 = 0, carry = 1\nstep 2: 0 + 1 + 1 = 0, carry = 1\nstep 3: 1 + 1 + 1 = 1, carry = 1\nfinal carry becomes new MSB\nresult bits (MSB→LSB): 1 1 0 0 0\nSo 1011 + 1101 = 11000₂ which is decimal 24",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#signed-integers",
+    "href": "Courses/CSharp/appendices.html#signed-integers",
+    "title": "Appendices",
+    "section": "Signed integers",
+    "text": "Signed integers",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#fractions",
+    "href": "Courses/CSharp/appendices.html#fractions",
+    "title": "Appendices",
+    "section": "Fractions",
+    "text": "Fractions",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#exercises",
+    "href": "Courses/CSharp/appendices.html#exercises",
+    "title": "Appendices",
+    "section": "Exercises",
+    "text": "Exercises",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#binary-addition-digit-by-digit",
+    "href": "Courses/CSharp/appendices.html#binary-addition-digit-by-digit",
+    "title": "Appendices",
+    "section": "Binary addition (digit-by-digit)",
+    "text": "Binary addition (digit-by-digit)\nExample: 1011₂ (11) + 1101₂ (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\nstep 0 (LSB): 1 + 1 = 0, carry = 1\nstep 1: 1 + 0 + 1 = 0, carry = 1\nstep 2: 0 + 1 + 1 = 0, carry = 1\nstep 3: 1 + 1 + 1 = 1, carry = 1\nfinal carry becomes new MSB\nresult bits (MSB→LSB): 1 1 0 0 0\nSo 1011 + 1101 = 11000₂ which is decimal 24",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#negative-numbers",
+    "href": "Courses/CSharp/appendices.html#negative-numbers",
+    "title": "Appendices",
+    "section": "Negative numbers",
+    "text": "Negative numbers\nComputers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/appendices.html#binary-subtraction",
+    "href": "Courses/CSharp/appendices.html#binary-subtraction",
+    "title": "Appendices",
+    "section": "Binary subtraction",
+    "text": "Binary subtraction\nUsually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True\n\n\n\nEach binary digit (bit) has a place value that is a power of 2:\nBinary: 1 0 1 1 0\nPower: 16 8 4 2 1\nValue: 16 + 0 + 4 + 2 + 0 = 22\nSo 10110₂ = 22₁₀\n\n\n\nConvert decimal 45 to binary by repeated division by 2, collecting remainders:\n45 ÷ 2 = 22 remainder 1\n22 ÷ 2 = 11 remainder 0\n11 ÷ 2 = 5 remainder 1\n5 ÷ 2 = 2 remainder 1\n2 ÷ 2 = 1 remainder 0\n1 ÷ 2 = 0 remainder 1\nRead remainders from bottom to top: 101101\nSo 45₁₀ = 101101₂\n\n\n\nExample: 1011₂ (11) + 1101₂ (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\nstep 0 (LSB): 1 + 1 = 0, carry = 1\nstep 1: 1 + 0 + 1 = 0, carry = 1\nstep 2: 0 + 1 + 1 = 0, carry = 1\nstep 3: 1 + 1 + 1 = 1, carry = 1\nfinal carry becomes new MSB\nresult bits (MSB→LSB): 1 1 0 0 0\nSo 1011 + 1101 = 11000₂ which is decimal 24\n\n\n\nComputers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011\n\n\n\nUsually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#what-is-binary",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#what-is-binary",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#converting-binary-to-decimal",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#converting-binary-to-decimal",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Each binary digit (bit) has a place value that is a power of 2:\nBinary: 1 0 1 1 0\nPower: 16 8 4 2 1\nValue: 16 + 0 + 4 + 2 + 0 = 22\nSo 10110₂ = 22₁₀",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#converting-decimal-to-binary",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#converting-decimal-to-binary",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Convert decimal 45 to binary by repeated division by 2, collecting remainders:\n45 ÷ 2 = 22 remainder 1\n22 ÷ 2 = 11 remainder 0\n11 ÷ 2 = 5 remainder 1\n5 ÷ 2 = 2 remainder 1\n2 ÷ 2 = 1 remainder 0\n1 ÷ 2 = 0 remainder 1\nRead remainders from bottom to top: 101101\nSo 45₁₀ = 101101₂",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#binary-addition-digit-by-digit",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#binary-addition-digit-by-digit",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Example: 1011₂ (11) + 1101₂ (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\nstep 0 (LSB): 1 + 1 = 0, carry = 1\nstep 1: 1 + 0 + 1 = 0, carry = 1\nstep 2: 0 + 1 + 1 = 0, carry = 1\nstep 3: 1 + 1 + 1 = 1, carry = 1\nfinal carry becomes new MSB\nresult bits (MSB→LSB): 1 1 0 0 0\nSo 1011 + 1101 = 11000₂ which is decimal 24",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#negative-numbers",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#negative-numbers",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Computers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/Appendix A - Binary System.html#binary-subtraction",
+    "href": "Courses/CSharp/Appendices/Appendix A - Binary System.html#binary-subtraction",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Usually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True\n\n\n\nEach binary digit (bit) has a place value that is a power of 2:\n\n\n\nBinary\n1\n0\n1\n1\n0\n\n\nPlace\n4\n3\n2\n1\n0\n\n\nPlace value\n24 = 16\n23 = 8\n22 = 4\n21 = 2\n20 = 1\n\n\nValue\n(1 x 16)\n(0 x 8)\n(1 x 4)\n(1 x 2)\n(0 x 1)\n\n\n\nSo 101102 = (1 x 16) + (0 x 8) + (1 x 4) + (1 x 2) + (0 x 1) = 16 + 0 + 4 + 2 + 0 = 2210\n\n\n\nConvert decimal 45 to binary by repeated division by 2, collecting remainders:\n\n\n\n\n\n\n\n\nDivision Steps\nQuotient\nRemainder\n\n\n\n\n45 ÷ 2\n22\n1\n\n\n22 ÷ 2\n11\n0\n\n\n11 ÷ 2\n5\n1\n\n\n5 ÷ 2\n2\n1\n\n\n2 ÷ 2\n1\n0\n\n\n1 ÷ 2\n0\n1\n\n\n\nRead remainders from bottom to top: 101101\nSo 4510 = 1011012\n\n\n\nExample: 10112 (11) + 11012 (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\n\n\n\n\n\n\n\n\nAddition Steps\nSum Bit\nCarry Bit\n\n\n\n\n1 + 1\n0\n1\n\n\n1 + 0 + 1\n0\n1\n\n\n0 + 1 + 1\n0\n1\n\n\n1 + 1 + 1\n1\n1\n\n\n\nFinal carry becomes new MSB\nResult bits (MSB→LSB): 1 1 0 0 0\nSo 10112 + 11012 = 110002 = 2410\n\n\n\nComputers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011\n\n\n\nUsually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#what-is-binary",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#what-is-binary",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-binary-to-decimal",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-binary-to-decimal",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Each binary digit (bit) has a place value that is a power of 2:\n\n\n\nBinary\n1\n0\n1\n1\n0\n\n\nPlace\n4\n3\n2\n1\n0\n\n\nPlace value\n24 = 16\n23 = 8\n22 = 4\n21 = 2\n20 = 1\n\n\nValue\n(1 x 16)\n(0 x 8)\n(1 x 4)\n(1 x 2)\n(0 x 1)\n\n\n\nSo 101102 = (1 x 16) + (0 x 8) + (1 x 4) + (1 x 2) + (0 x 1) = 16 + 0 + 4 + 2 + 0 = 2210",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-decimal-to-binary",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-decimal-to-binary",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Convert decimal 45 to binary by repeated division by 2, collecting remainders:\n\n\n\n\n\n\n\n\nDivision Steps\nQuotient\nRemainder\n\n\n\n\n45 ÷ 2\n22\n1\n\n\n22 ÷ 2\n11\n0\n\n\n11 ÷ 2\n5\n1\n\n\n5 ÷ 2\n2\n1\n\n\n2 ÷ 2\n1\n0\n\n\n1 ÷ 2\n0\n1\n\n\n\nRead remainders from bottom to top: 101101\nSo 4510 = 1011012",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-addition-digit-by-digit",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-addition-digit-by-digit",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Example: 10112 (11) + 11012 (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\n\n\n\n\n\n\n\n\nAddition Steps\nSum Bit\nCarry Bit\n\n\n\n\n1 + 1\n0\n1\n\n\n1 + 0 + 1\n0\n1\n\n\n0 + 1 + 1\n0\n1\n\n\n1 + 1 + 1\n1\n1\n\n\n\nFinal carry becomes new MSB\nResult bits (MSB→LSB): 1 1 0 0 0\nSo 10112 + 11012 = 110002 = 2410",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#negative-numbers",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#negative-numbers",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Computers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-subtraction",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-subtraction",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "Usually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#section",
+    "href": "Courses/CSharp/ch01-language-basics.html#section",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "Ex.1 :\nThis is line one.This is line two.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#ex.2",
+    "href": "Courses/CSharp/ch01-language-basics.html#ex.2",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "Console.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/ch01-language-basics.html#section-1",
+    "href": "Courses/CSharp/ch01-language-basics.html#section-1",
+    "title": "Chapter 1 - Language Basics",
+    "section": "",
+    "text": "Ex.2 :\nThis is line one.\nThis is line two. :::",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1 - Language Basics"
+    ]
+  },
+  {
+    "objectID": "HowTo/index.html",
+    "href": "HowTo/index.html",
+    "title": "How-To Guides",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHow to Build a Custom Explosion Indicator in cTrader\n\n4 min\n\n\nChris Vassiliou\n\n\nSep 9, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html",
+    "href": "HowTo/fx-custom-explosion-indicator.html",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "",
+    "text": "In this guide, we’ll create a Custom Explosion Indicator for cTrader using cAlgo API in C#.\nThe indicator combines three technical tools:\n\nMACD (for trend direction)\n\nBollinger Bands (for market volatility width)\n\nATR (for dynamic thresholding)\n\nIt outputs bullish/bearish trend histograms, an explosion line, a threshold line and buy/sell signals when conditions are met."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#overview",
+    "href": "HowTo/fx-custom-explosion-indicator.html#overview",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "",
+    "text": "In this guide, we’ll create a Custom Explosion Indicator for cTrader using cAlgo API in C#.\nThe indicator combines three technical tools:\n\nMACD (for trend direction)\n\nBollinger Bands (for market volatility width)\n\nATR (for dynamic thresholding)\n\nIt outputs bullish/bearish trend histograms, an explosion line, a threshold line and buy/sell signals when conditions are met."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#prerequisites",
+    "href": "HowTo/fx-custom-explosion-indicator.html#prerequisites",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore starting, you should have:\n\nBasic familiarity with C# programming.\n\ncTrader installed (with access to the cAlgo API).\n\nUnderstanding of MACD, Bollinger Bands and ATR indicators."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-1-define-input-parameters",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-1-define-input-parameters",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 1 — Define Input Parameters",
+    "text": "Step 1 — Define Input Parameters\nWe start by exposing configurable parameters for Bollinger Bands and MACD:\n[Parameter(\"Period\", Group = \"Bollinger Bands\", DefaultValue = 10)]\npublic int InpBBPeriod { get; set; }\n\n[Parameter(\"Standard Deviation\", Group = \"Bollinger Bands\", DefaultValue = 2, MinValue = 0)]\npublic double InpBBStDev { get; set; }\n\n[Parameter(\"Long Period\", Group = \"MACD\", DefaultValue = 20)]\npublic int InpMACDLongPeriod { get; set; }\n\n[Parameter(\"Short Period\", Group = \"MACD\", DefaultValue = 10)]\npublic int InpMACDShortPeriod { get; set; }"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-2-declare-outputs",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-2-declare-outputs",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 2 — Declare Outputs",
+    "text": "Step 2 — Declare Outputs\nWe define the output series (plotted on the chart):\n\nBullish & Bearish trend histograms.\nExplosion and Threshold lines.\nBuy & Sell signals (plotted as points).\n\n[Output(\"Bullish Trend\", LineColor = \"DarkGreen\", PlotType = PlotType.Histogram, Thickness = 5)]\npublic IndicatorDataSeries BullishTrend { get; set; }\n\n[Output(\"Bearish Trend\", LineColor = \"Maroon\", PlotType = PlotType.Histogram, Thickness = 5)]\npublic IndicatorDataSeries BearishTrend { get; set; }\n\n[Output(\"Explosion\", LineColor = \"Red\", PlotType = PlotType.Line,Thickness = 1)]\npublic IndicatorDataSeries Explosion { get; set; }\n\n[Output(\"Threshold\", LineColor = \"Yellow\", PlotType = PlotType.Line, Thickness = 1)]\npublic IndicatorDataSeries Threshold { get; set; }\n\n[Output(\"Buy Signal\", LineColor = \"Lime\", PlotType = PlotType.Points, Thickness = 5)]\npublic IndicatorDataSeries BuySignal { get; set; }\n\n[Output(\"Sell Signal\", LineColor = \"Magenta\", PlotType = PlotType.Points, Thickness = 5)]\npublic IndicatorDataSeries SellSignal { get; set; }"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-3-initialize-indicators",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-3-initialize-indicators",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 3 — Initialize Indicators",
+    "text": "Step 3 — Initialize Indicators\nInside Initialize(), we set up references to MACD, Bollinger Bands and ATR:\nprivate MacdCrossOver mMACD;\nprivate BollingerBands mBB;\nprivate AverageTrueRange mATR;\nprivate double TrendDir;\n\nprotected override void Initialize()\n{\n    mMACD = Indicators.MacdCrossOver(Bars.ClosePrices, InpMACDLongPeriod, InpMACDShortPeriod, 9);\n    mBB   = Indicators.BollingerBands(Bars.ClosePrices, InpBBPeriod, InpBBStDev, MovingAverageType.Simple);\n    mATR  = Indicators.AverageTrueRange(14, MovingAverageType.Exponential);\n}"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-4-implement-the-logic",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-4-implement-the-logic",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 4 — Implement the Logic",
+    "text": "Step 4 — Implement the Logic\nThe core of the indicator is in the Calculate() method:\n\nReset buy/sell signals.\nMeasure trend direction from MACD slope.\nPlot bullish/bearish histograms.\nCompute Explosion as BB width.\nCompute Threshold as ATR × 5.\nGenerate signals if explosion and trend exceed thresholds.\n\npublic override void Calculate(int i)\n{\n    BuySignal[i] = double.NaN;\n    SellSignal[i] = double.NaN;            \n\n    TrendDir = (mMACD.MACD[i] - mMACD.MACD[i - 1]) * 100;\n\n    if (TrendDir &gt;= 0)\n       BullishTrend[i] = TrendDir;\n    else\n       BearishTrend[i] = -1 * TrendDir;\n\n    Explosion[i] = mBB.Top[i] - mBB.Bottom[i];\n    Threshold[i] = mATR.Result[i] * 5.0;\n\n    bool BullishTrendGreaterThanExplosion = BullishTrend[i] &gt; Explosion[i];\n    bool BearishTrendGreaterThanExplosion = BearishTrend[i] &gt; Explosion[i];\n    bool BullishTrendGreaterThanThreshold = BullishTrend[i] &gt; Threshold[i];\n    bool BearishTrendGreaterThanThreshold = BearishTrend[i] &gt; Threshold[i];\n    bool ExplosionGreaterThanThreshold = Explosion[i] &gt; Threshold[i];\n\n    if (BullishTrendGreaterThanExplosion && BullishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)\n        BuySignal[i] = BullishTrend[i];\n    else if (BearishTrendGreaterThanExplosion && BearishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)\n        SellSignal[i] = BearishTrend[i];\n}"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-5-use-the-indicator",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-5-use-the-indicator",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 5 — Use the Indicator",
+    "text": "Step 5 — Use the Indicator\n\nAttach the indicator to a chart in cTrader.\nAdjust Bollinger Band period, MACD parameters and threshold multiplier to fit your strategy.\nBuy signals (green points) appear during bullish explosions.\nSell signals (magenta points) appear during bearish explosions."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#troubleshooting-tips",
+    "href": "HowTo/fx-custom-explosion-indicator.html#troubleshooting-tips",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Troubleshooting & Tips",
+    "text": "Troubleshooting & Tips\n\nIf signals are too frequent, increase the ATR multiplier.\nIf signals are too rare, decrease the ATR multiplier or shorten MACD periods.\nWorks best on volatile instruments like US30 or NASDAQ."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#summary",
+    "href": "HowTo/fx-custom-explosion-indicator.html#summary",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Summary",
+    "text": "Summary\nWe have built a Custom Explosion Indicator in cTrader by combining MACD, Bollinger Bands and ATR. This indicator detects strong bullish or bearish bursts (explosions) and highlights potential entry points."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#further-reading",
+    "href": "HowTo/fx-custom-explosion-indicator.html#further-reading",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Further Reading",
+    "text": "Further Reading\ncTrader Automate API Documentation\nMACD Indicator Basics\nBollinger Bands\nATR Explained"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#full-source-code",
+    "href": "HowTo/fx-custom-explosion-indicator.html#full-source-code",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Full Source Code",
+    "text": "Full Source Code\nmarkdown"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#download-source-code",
+    "href": "HowTo/fx-custom-explosion-indicator.html#download-source-code",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Download Source Code",
+    "text": "Download Source Code\n📥 Download Source"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#indicator-screenshot",
+    "href": "HowTo/fx-custom-explosion-indicator.html#indicator-screenshot",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Indicator Screenshot",
+    "text": "Indicator Screenshot\nHere’s how the Custom Explosion Indicator looks in cTrader:\n\n\n\nCustom Explosion Indicator screenshot"
   }
 ]

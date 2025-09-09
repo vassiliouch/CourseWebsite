@@ -1,11 +1,6 @@
 ---
 title: "C# Programming"
+title-block-banner: "#c75300"
 ---
 
-## Syllabus
-
-Chapter 1 - Language Basics
-
-Chapter 2 - Decision Making
-
-Chapter 3 - Iterations (loops)
+Describe what this course is all about and describe course details and content.

@@ -54,20 +54,62 @@ website:
 
       - text: Blog
 
-      - text: How-to
+      - text: How-To
+        href: HowTo/index.qmd
 
       - text: About
         href: about.qmd
+
+    tools:
+      - icon: tools
+        menu:
+          - text: Fiddle Editor
+            href: https://dotnetfiddle.net/  
+            target: _blank
+
+          - text: Rextester Editor
+            href: https://rextester.com/l/csharp_online_compiler/
+            target: _blank
+
+          - text: Scholarhat Editor
+            href: https://www.scholarhat.com/compiler/csharp/
+            target: _blank            
+
+          - text: Nextleap Editor
+            href: https://nextleap.app/online-compiler/csharp-programming/
+            target: _blank                        
 
   sidebar:
     - id: CSharp
       style: docked
       alignment: left
       border: false
-      contents: CSharp/*
-        #- Courses/CSharp/index.qmd
-        #- Courses/CSharp/Ch01-LanguageBasics.qmd
-        #- Courses/CSharp/Ch02-DecisionMaking.qmd
+      collapse-level: 1
+      contents:
+        - Courses/CSharp/index.qmd
+        - Courses/CSharp/syllabus.qmd
+
+        - section: "Chapters"
+          contents: 
+            - Courses/CSharp/ch01-language-basics.qmd
+            - Courses/CSharp/ch02-decision-making.qmd
+            - Courses/CSharp/ch03-iterations.qmd
+
+        - section: "Exercises"    
+          contents: 
+            - Courses/CSharp/exercises.qmd
+
+        - section: "Assignments"    
+          contents: 
+            - Courses/CSharp/assignments.qmd
+
+        - section: "Appendices"
+          contents: 
+            - Courses/CSharp/Appendices/appendixA-binary-system.qmd
+        
+        - Courses/CSharp/references.qmd
+
+
 
   page-footer: 
     left: |
@@ -106,9 +148,8 @@ format:
       margin-width: 300px
       gutter-width: 1.5rem
 
-    link-external-icon: true
-    link-external-newwindow: true  
-    
-    
-    
+    link-external-icon: true       ## Show a special icon next to links that leave the current site.
+    link-external-newwindow: true  ## Open external links in a new browser window.
+       
     #embed-resources: true
+

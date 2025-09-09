@@ -16,6 +16,7 @@ $gray-900: #212529 !default;
 $black:    #000000 !default;
 
 $blue:    #0078d7 !default;
+$blue-dark: #003e83 !default;
 $indigo:  #6610f2 !default;
 $purple:  #be82fa !default;
 $pink:    #cf649a !default;
@@ -33,32 +34,32 @@ $lime:    #a2e436 !default;
 $th-page-bg: $white !default;
 $th-page-text: $gray-800 !default;
 
-$th-navbar-bg: $gray-100 !default;
+$th-navbar-bg: $gray-400 !default;
 $th-navbar-text: $gray-800 !default;
 $th-navbar-active-text: $pink !default;
 
 $th-dropdown-bg: $white !default;
 $th-dropdown-text: $gray-800 !default;
-$th-dropdown-hover-bg: $pink !default;
-$th-dropdown-hover-text: $white !default;
+$th-dropdown-hover-bg: $gray-200 !default;
+$th-dropdown-hover-text: $gray-800 !default;
 
 $th-sidebar-bg: $white !default;
 $th-sidebar-text: $gray-800 !default;
-$th-sidebar-hover-bg: lighten($pink, 30%) !default;
+$th-sidebar-hover-bg: $gray-200 !default;
 
-$th-table-header-bg: lighten($gray-800, 35%) !default;
+$th-table-header-bg: $blue-dark !default;
 $th-table-header-text: $white !default;
 $th-table-row-bg: $white !default;
 $th-table-row-text: $gray-800 !default;
 $th-table-zebra-bg: $gray-100 !default;
 $th-table-hover-bg: lighten($yellow, 10%) !default;
 
-$th-border: 0.02rem solid $gray-400 !default;
+$th-border: 0.1rem solid $gray-400 !default;
 $th-shadow: 0.2rem 0.2rem 0.4rem $gray-400 !default;
 
 $th-link-hover-text: $pink !default;
 
-$th-footer-bg: $pink !default;
+$th-footer-bg: $gray-600 !default;
 $th-footer-text: $white !default;
 
 // Callout theme colors.
@@ -141,7 +142,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     color: $th-dropdown-hover-text;
     border: $th-border;
     border-radius: 0.2rem;
-    box-shadow: $th-shadow;
+    //box-shadow: $th-shadow;
     display: none; // Do not display dropdown on click.
   }
  
@@ -180,7 +181,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     &:hover, &.active {
       background-color: $th-sidebar-hover-bg;
       font-weight: 500;
-      border-radius: 2.0rem;
+      border-radius: 0.2rem;
     }
   }
 }
@@ -224,4 +225,8 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
       }
     }
   }
+}
+
+h2 {
+  border-bottom: none !important;
 }

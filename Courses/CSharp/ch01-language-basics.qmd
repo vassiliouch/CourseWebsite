@@ -12,30 +12,38 @@ There are basically two methods used to print information within a program.
 <br><br>
 
 ::: panel-tabset
-## Ex.1
+## Write()
 
 ``` csharp
 Console.Write("This is line one.");
 Console.Write("This is line two.");
 ```
 
-## ▶
+## ▶ Run
 
-Ex.1 :\
-**This is line one.This is line two.**
+``` csharp
+Console.Write("This is line one.");
+Console.Write("This is line two.");
+```
 
-## Ex.2
+This is line one.This is line two.
+
+## WriteLine()
 
 ``` csharp
 Console.WriteLine("This is line one.");
 Console.WriteLine("This is line two.");
 ```
 
-## ▶
+## ▶ Run
 
-Ex.2 :\
-**This is line one.\
-This is line two.**
+``` csharp
+Console.WriteLine("This is line one.");
+Console.WriteLine("This is line two.");
+```
+
+This is line one.\
+This is line two.
 :::
 
 <br>

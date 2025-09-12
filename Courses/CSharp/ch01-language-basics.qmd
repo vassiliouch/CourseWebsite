@@ -11,6 +11,11 @@ There are basically two methods used to print information within a program.
 
 <br><br>
 
+``` csharp
+Console.Write("This is line one.");
+Console.Write("This is line two.");
+```
+
 ::: panel-tabset
 ## Write()
 

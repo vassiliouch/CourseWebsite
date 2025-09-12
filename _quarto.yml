@@ -129,7 +129,8 @@ website:
 format:
   html:
     theme:
-      light: Styles/theme.scss
+      light: [Styles/theme.scss]
+      dark: [Styles/theme.scss, Styles/theme-dark.scss]
     respect-user-color-scheme: true  
 
     #css: styles.scss
@@ -139,7 +140,7 @@ format:
     tbl-cap-location: bottom  
     
     toc: true
-    toc-title: Page Contents
+    toc-title: ≣  
     toc-location: right
 
     grid:

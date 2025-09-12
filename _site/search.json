@@ -153,7 +153,7 @@
     "href": "Courses/CSharp/ch01-language-basics.html",
     "title": "Chapter 1 - Language Basics",
     "section": "",
-    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a comment ?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with /\nMultiple-line comment. Begins with /* and ends with */\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n  D --&gt; F",
     "crumbs": [
       "Chapters",
       "Chapter 1 - Language Basics"
@@ -164,7 +164,7 @@
     "href": "Courses/CSharp/ch01-language-basics.html#output-methods",
     "title": "Chapter 1 - Language Basics",
     "section": "",
-    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.",
     "crumbs": [
       "Chapters",
       "Chapter 1 - Language Basics"
@@ -199,6 +199,7 @@
     "section": "",
     "text": "Chapter 3 - Iterations\n\n\n\n\n Back to top",
     "crumbs": [
+      "Chapters",
       "Chapter 3 - Iterations"
     ]
   },

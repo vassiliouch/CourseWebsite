@@ -35,7 +35,7 @@ I am an educator, developer and trader with experience in the areas of:
 
 I create courses that combine real-world knowledge with practical examples.
 
-## [Education]{style="color:#1a73e8;"}
+## Education
 
 **California State University, Northridge** [**CSUN**](https://www.csun.edu) Los Angeles, USA\
 Master of Science in Computer Engineering \| Sep 1984 - Sep 1986
@@ -43,7 +43,7 @@ Master of Science in Computer Engineering \| Sep 1984 - Sep 1986
 **University of California, Los Angeles** [**UCLA**](https://www.ucla.edu) Los Angeles, USA\
 Bachelor of Science in Mathematics \| Sep 1980 – Sep 1984
 
-## [Experience]{style="color:#1a73e8;"}
+## Experience
 
 **Hellenic American Union** - Athens\
 Proctor \| May 2024 – present\

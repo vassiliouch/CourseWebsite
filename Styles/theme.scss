@@ -1,111 +1,67 @@
+/*-- scss:uses --*/
+
+@use 'color-palette' as *;
+
 /*-- scss:defaults --*/
-
-//*******************************************************************
-// Basic palette. 
-//*******************************************************************
-$white:    #ffffff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6b717f !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black:    #000000 !default;
-
-$blue:    #0078d7 !default;
-$blue-dark: #003e83 !default;
-$indigo:  #6610f2 !default;
-$purple:  #be82fa !default;
-$pink:    #cf649a !default;
-$red:     #f56565 !default;
-$orange:  #fa984a !default;
-$yellow:  #ffe484 !default;
-$green:   #68d391 !default;
-$teal:    #2ed3be !default;
-$cyan:    #22d2ed !default;
-$lime:    #a2e436 !default;
 
 //*******************************************************************
 // Theme variables.
 //*******************************************************************
 $th-page-bg: $white !default;
-$th-page-text: $gray-800 !default;
+$th-page-text: $black !default;
 
-$th-navbar-bg: $gray-400 !default;
-$th-navbar-text: $gray-800 !default;
-$th-navbar-active-text: $pink !default;
+$th-anchor-link-bg: $yellow !default;
+$th-anchor-link-text: $black !default;
+$th-anchor-link-hover-bg: lighten($yellow, 20%) !default;
+$th-anchor-link-hover-text: $black !default;
+
+$th-page-link-bg: $white !default;
+$th-page-link-text: $black !default;
+$th-page-link-hover-bg: lighten($yellow, 20%) !default;
+$th-page-link-hover-text: $black !default;
+
+$th-navbar-bg: $blue !default;
+$th-navbar-text: $white !default;
 
 $th-dropdown-bg: $white !default;
-$th-dropdown-text: $gray-800 !default;
-$th-dropdown-hover-bg: $gray-200 !default;
-$th-dropdown-hover-text: $gray-800 !default;
+$th-dropdown-text: $black !default;
+$th-dropdown-hover-bg: $blue !default;
+$th-dropdown-hover-text: $white !default;
+$th-dropdown-border: 0.2rem solid $white !default;
+$th-dropdown-shadow: 0.2rem 0.2rem 0.4rem $gray-400 !default;
 
 $th-sidebar-bg: $white !default;
-$th-sidebar-text: $gray-800 !default;
-$th-sidebar-hover-bg: $gray-200 !default;
+$th-sidebar-text: $black !default;
+$th-sidebar-hover-bg: lighten($blue, 40%) !default;
+$th-sidebar-hover-text: $black !default;
 
-$th-table-header-bg: $blue-dark !default;
+$th-table-header-bg: darken($blue, 20%) !default;
 $th-table-header-text: $white !default;
 $th-table-row-bg: $white !default;
-$th-table-row-text: $gray-800 !default;
+$th-table-row-text: $black !default;
 $th-table-zebra-bg: $gray-100 !default;
-$th-table-hover-bg: lighten($yellow, 10%) !default;
+$th-table-hover-bg: lighten($yellow, 20%) !default;
+
+$th-tabs-bg: darken($blue, 20%) !default;
 
 $th-border: 0.1rem solid $gray-400 !default;
-$th-shadow: 0.2rem 0.2rem 0.4rem $gray-400 !default;
 
-$th-link-hover-text: $pink !default;
+$th-link-hover-text: $red !default;
 
-$th-footer-bg: $gray-600 !default;
+$th-heading-text: $blue !default;
+
+$th-footer-bg: $blue !default;
 $th-footer-text: $white !default;
-
-// Callout theme colors.
-$th-info: $blue !default;
-$th-question: $yellow !default;
-$th-warning: $orange !default;
-$th-danger: $red !default;
-$th-success: $green !default;
-$th-tip: $purple !default;
 
 //*******************************************************************
 // Bootstrap's Sass variables.
 // Assign theme variables only.
 //*******************************************************************
 
-// Colors.
-$body-bg: $th-page-bg !default;
-$body-color: $th-page-text !default;
-$link-color: $th-page-text !default;
-$link-hover-color: $th-link-hover-text !default;
-
-// Navigation.
-$sidebar-bg: $th-sidebar-bg;
-$sidebar-fg: $th-sidebar-text;
-
 // TOC.
 $toc-color: $th-sidebar-text !default;
 $toc-active-border: $th-sidebar-bg !default;
 $toc-inactive-border: $th-sidebar-bg !default;
-
-// Tabs.
-$nav-tabs-border-color: $gray-400 !default;                // Container border color.
-$nav-tabs-border-width: 0.02rem !default;                  // Tab and container border width.
-//$nav-tabs-link-hover-border-color: $red !default;      // Hover border color.
-//$nav-tabs-link-active-color: $th-link-hover-text !default;            // Active tab text color.
-//$nav-tabs-link-active-bg: $white !default;                 // Active tab background color.
-//$nav-tabs-link-active-border-color: $gray-400 !default;    // Active tab border color.
-
-// Code blocks.
-$code-block-bg: $white !default;
-$btn-code-copy-color: $gray-800 !default;
-$btn-code-copy-color-active: $pink !default;
-
-// Footer.
-$footer-bg: $th-footer-bg !default;
-$footer-fg: $th-footer-text !default;
 
 // Options.
 $enable-rounded: true !default; // Softens tab corners.
@@ -114,8 +70,50 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 /*-- scss:rules --*/
 
 //*******************************************************************
+// Page content.
+//*******************************************************************
+.content {
+  background-color: $th-page-bg;
+  color: $th-page-text;
+
+  // Somehow, this anchor affects the tabs.
+  //a {
+  //  background-color: $th-anchor-link-bg;
+  //  color: $th-page-link-text;
+  //}
+}
+
+//*******************************************************************
+// Page navigation.
+//*******************************************************************
+.nav-page-text {
+  background-color: $th-page-link-bg;
+  color: $th-page-link-text;
+
+  &:hover {
+    background-color: $th-page-link-hover-bg;
+    color: $th-page-link-hover-text;
+    border-radius: 0.2rem;
+  }
+}
+
+//*******************************************************************
+// Anchor links.
+//*******************************************************************
+.anchorjs-link {
+  background-color: $th-anchor-link-bg;
+  color: $th-anchor-link-text;
+  border-radius: 0.8rem;
+
+  &:hover {
+    background-color: $th-anchor-link-hover-bg;
+    color: $th-anchor-link-text;
+    border-radius: 0.8rem;
+  }
+}
+
+//*******************************************************************
 // Navbar and Dropdowns(submenus).
-// Note : the dropdown rules affect only the dropdowns inside the navbar.
 //*******************************************************************
 .navbar {
   background-color: $th-navbar-bg;
@@ -128,21 +126,21 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     text-decoration: none; // No underline by default.
     
     &:hover {
-      text-decoration: underline $th-navbar-text solid 0.2rem;
+      text-decoration: underline $th-navbar-text solid 0.1rem;
     }
 
     &.active {
-      color: $th-navbar-active-text;
-      font-weight: 500;
+      color: $th-navbar-text;
+      text-decoration: underline $th-navbar-text solid 0.1rem;
     }    
   }
 
-   .dropdown-menu {
+  .dropdown-menu {
     background-color: $th-dropdown-bg;
     color: $th-dropdown-hover-text;
-    border: $th-border;
+    border: $th-dropdown-border;
     border-radius: 0.2rem;
-    //box-shadow: $th-shadow;
+    box-shadow: $th-dropdown-shadow;
     display: none; // Do not display dropdown on click.
   }
  
@@ -158,29 +156,34 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     }
   }
 
-  .dropdown:hover .dropdown-menu {
-    display: block; // Display dropdown on hover.
+  .dropdown:hover {
+    .dropdown-menu {
+      display: block; // Display dropdown on hover.
+    }  
   }    
- 
-  //.dropdown-toggle::after {
-  //  display: none; // Hide the caret.
-  //}
 }
 
 //*******************************************************************
-// Sidebars (left and right).
+// Sidebar.
 //*******************************************************************
 .sidebar {
   background-color: $th-sidebar-bg;
   color: $th-sidebar-text;
   
   a {
+    background-color: inherit;
     color: inherit;
     padding: 0.3rem;
 
-    &:hover, &.active {
+    &.active {
       background-color: $th-sidebar-hover-bg;
-      font-weight: 500;
+      color: $th-sidebar-hover-text;
+      border-radius: 0.2rem;
+    }    
+
+    &:hover {
+      background-color: $th-sidebar-hover-bg;
+      color: $th-sidebar-hover-text;
       border-radius: 0.2rem;
     }
   }
@@ -192,7 +195,6 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 .table {
   border: $th-border;
   border-collapse: collapse;
-  //box-shadow: $th-shadow;
   width: 100%;
 
   th, td {
@@ -220,13 +222,77 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
         background-color: $th-table-zebra-bg;
       }
 
-      &:hover td {
-        background-color: $th-table-hover-bg !important; // Ensure hover color takes precedence
+      &:hover {
+        background-color: $th-table-hover-bg !important; // Ensure hover color takes precedence.
       }
     }
   }
 }
 
-h2 {
+//*******************************************************************
+// Headings.
+//*******************************************************************
+h1, h2 {
+  color: $th-heading-text;
   border-bottom: none !important;
+}
+
+//*******************************************************************
+// Footer.
+//*******************************************************************
+.footer {
+  .nav-footer {
+    background-color: $th-footer-bg;
+    color: $th-footer-text;
+
+    a {
+      background-color: inherit;
+      color: inherit;
+    }
+  }
+}
+
+//*******************************************************************
+// Callouts.
+//*******************************************************************
+.callout {
+  border-left-width: 1.0rem !important;
+}
+
+//*******************************************************************
+// Code blocks.
+//*******************************************************************
+.sourceCode {
+  background-color: transparent; 
+  padding: 0.4rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+//*******************************************************************
+// Tabs.
+//*******************************************************************
+.panel-tabset {
+  .nav-tabs {
+    background-color: $th-tabs-bg;
+    border: $th-border;
+
+    .nav-link {
+      background-color: $th-tabs-bg;
+      color: $white;
+      border: none;
+      border-right: $th-border;
+      border-radius: 0.4rem 0.2rem 0 0;
+
+      &:hover {
+        background-color: lighten($blue, 10%);
+        color: $white;
+      }
+
+      &.active {
+        background-color: $white;
+        color: $black;
+      }
+    }
+  }
 }

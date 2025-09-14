@@ -133,8 +133,6 @@ format:
       dark: [Styles/theme.scss, Styles/theme-dark.scss]
     respect-user-color-scheme: true  
 
-    #css: styles.scss
-
     anchor-sections: true
     smooth-scroll: true
     tbl-cap-location: bottom  
@@ -151,6 +149,14 @@ format:
 
     link-external-icon: true       ## Show a special icon next to links that leave the current site.
     link-external-newwindow: true  ## Open external links in a new browser window.
+
+    # Global default appearance for all callouts.
+    #
+    # minimal - without header color and icon.
+    # simple  - with icon only.
+    # default - with header color and icon.
+    #
+    callout-appearance: simple
        
     #embed-resources: true
 

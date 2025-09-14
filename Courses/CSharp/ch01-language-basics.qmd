@@ -55,12 +55,10 @@ This is line two.
 
 ## Comments
 
-::: {.callout-caution title = "What is a comment ?" icon = false}
+::: {.callout-warning title = "What is a comment ?" appearance="minimal"}
 
 -   A comment is a text note that is ignored by a program.
-
 -   It helps document a program for better readability and understanding of logic.
-
 -   It temporarily disables part of a program during debugging.
 
 :::
@@ -69,9 +67,8 @@ This is line two.
 
 ::: {.callout-note title = "Types of comments"}
 
-1.  Single-line comment. Begins with /
-
-2.  Multiple-line comment. Begins with /\* and ends with \*/
+1.  Single-line comment. Begins with `//`
+2.  Multiple-line comment. Begins with `/*` and ends with `*/`
 
 :::
 

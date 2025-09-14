@@ -151,7 +151,7 @@ public override void Calculate(int i)
 -   Buy signals (green points) appear during bullish explosions.
 
 -   Sell signals (magenta points) appear during bearish explosions.
-   
+
 ## Indicator Screenshot
 
 Here’s how the **Custom Explosion Indicator** looks in cTrader:
@@ -182,4 +182,4 @@ We have built a Custom Explosion Indicator in cTrader by combining MACD, Bolling
 
 ## Download Source Code
 
-[📥 Download Source](../HowTo/fx-custom-explosion-indicator.cs){.btn .btn-primary .text-white download="CustomExplosion.cs"}
+[📥 Download Source](../HowTo/fx-custom-explosion-indicator.cs){.btn download="CustomExplosion.cs"}

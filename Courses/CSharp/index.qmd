@@ -1,6 +1,8 @@
 ---
 title: "C# Programming"
-title-block-banner: "#4878ba"
+format:
+  html:
+    title-block-banner: "Assets/cover.png"
 ---
 
 Describe what this course is all about and describe course details and content.

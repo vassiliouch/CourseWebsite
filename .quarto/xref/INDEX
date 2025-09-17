@@ -1,68 +1,50 @@
 {
-  "Courses/CSharp/Ch01-LanguageBasics.qmd": {
-    "Ch01-LanguageBasics.html": "e2ba2d03"
-  },
-  "index.qmd": {
-    "index.html": "ac317967"
-  },
-  "about.qmd": {
-    "about.html": "20bf333f"
-  },
-  "Courses/ASPNET/index.qmd": {
-    "index.html": "ad2c40d5"
-  },
-  "Courses/Forex/index.qmd": {
-    "index.html": "2fcd37ee"
-  },
-  "Courses/CSharp/index.qmd": {
-    "index.html": "d7a047e5"
-  },
-  "about2.qmd": {
-    "about2.html": "79923ff5"
+  "Courses/CSharp/ch01-language-basics.qmd": {
+    "ch01-language-basics.html": "e5c6f763"
   },
   "404.qmd": {
-    "404.html": "9c5be225"
+    "404.html": "e2bc5584"
   },
-  "Courses/CSharp/Ch02-DecisionMaking.qmd": {
-    "Ch02-DecisionMaking.html": "6461ede7"
+  "about.qmd": {
+    "about.html": "f3477f9f"
   },
-  "Courses/CSharp/Ch03-Iterations.qmd": {
-    "Ch03-Iterations.html": "114497c0"
-  },
-  "Courses/CSharp/syllabus.qmd": {
-    "syllabus.html": "19aeec0d"
-  },
-  "Courses/CSharp/ch01-language-basics.qmd": {
-    "ch01-language-basics.html": "2ebc72db"
-  },
-  "Courses/CSharp/ch02-decision-making.qmd": {
-    "ch02-decision-making.html": "2ce74257"
-  },
-  "Courses/CSharp/ch03-iterations.qmd": {
-    "ch03-iterations.html": "bff31c51"
-  },
-  "Courses/CSharp/exercises.qmd": {
-    "exercises.html": "6348b65a"
-  },
-  "Courses/CSharp/assignments.qmd": {
-    "assignments.html": "7125a01d"
-  },
-  "Courses/CSharp/appendices.qmd": {
-    "appendices.html": "1db41354"
-  },
-  "Courses/CSharp/references.qmd": {
-    "references.html": "b372bea9"
-  },
-  "Courses/CSharp/Appendices/Appendix A - Binary System.qmd": {
-    "Appendix A - Binary System.html": "da7f8ea4"
+  "Courses/ASPNET/index.qmd": {
+    "index.html": "0e610ed6"
   },
   "Courses/CSharp/Appendices/appendixA-binary-system.qmd": {
-    "appendixA-binary-system.html": "e7ce0793"
+    "appendixA-binary-system.html": "b08712e1"
+  },
+  "Courses/CSharp/assignments.qmd": {
+    "assignments.html": "c9b90f56"
+  },
+  "Courses/CSharp/ch02-decision-making.qmd": {
+    "ch02-decision-making.html": "1ad5c676"
+  },
+  "Courses/CSharp/ch03-iterations.qmd": {
+    "ch03-iterations.html": "a45e1884"
+  },
+  "Courses/CSharp/exercises.qmd": {
+    "exercises.html": "5c7d45e2"
+  },
+  "Courses/CSharp/index.qmd": {
+    "index.html": "a025489b"
+  },
+  "Courses/CSharp/references.qmd": {
+    "references.html": "9aff9a3b"
+  },
+  "Courses/CSharp/syllabus.qmd": {
+    "syllabus.html": "6fe0a9c1"
+  },
+  "Courses/Forex/index.qmd": {
+    "index.html": "d3aab4e5"
   },
   "HowTo/fx-custom-explosion-indicator.qmd": {
-    "fx-custom-explosion-indicator.html": "5687a8c5"
+    "fx-custom-explosion-indicator.html": "afa07143"
   },
   "HowTo/index.qmd": {
-    "index.html": "bfccd73c"
+    "index.html": "3542856b"
+  },
+  "index.qmd": {
+    "index.html": "538994ad"
   }
 }

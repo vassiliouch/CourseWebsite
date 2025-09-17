@@ -16,21 +16,21 @@ language:
 # Website.
 ############################################################
 website:
-  favicon: Assets/Images/logo.png
+  favicon: Assets/Images/logo-icon.png
   title: ""
-  page-navigation: true
+  page-navigation: true ## Provides next and previous page links in footer.
   back-to-top-navigation: true
-  reader-mode: true
+  reader-mode: false ## Enables/disables the icon that hides sidebar and toc contents.
   bread-crumbs: false
   search:
     location: navbar
-    type: textbox
+    type: textbox ## Selects the type of search UI.
     copy-button: true
-    show-item-context: true
+    show-item-context: true ## Shows search result parents.
 
   navbar:
-    logo: Assets/Images/logo.png
-    pinned: true
+    logo: Assets/Images/logo-icon.png
+    pinned: true ## Keeps the navbar visible during page scrolling.
     left:
       - text: Home
         href: index.qmd
@@ -109,12 +109,10 @@ website:
         
         - Courses/CSharp/references.qmd
 
-
-
   page-footer: 
     left: |
       <p>
-        © {{< var copyright-years >}} Clarity & Vision <br>
+        © {{< var copyright-years >}} Creative Ventures <br>
         Licensed under [Creative Commons]({{< var creativecommons-url >}}) CC BY 4.0
       </p>
     right: |
@@ -133,13 +131,17 @@ format:
       dark: [Styles/theme.scss, Styles/theme-dark.scss]
     respect-user-color-scheme: true  
 
-    anchor-sections: true
+    date-format: medium
+
+    anchor-sections: false ## Enables/disables an anchor link when hovering over a section title.
     smooth-scroll: true
+    fig-cap-location: bottom
     tbl-cap-location: bottom  
     
     toc: true
     toc-title: ≣  
     toc-location: right
+    toc-expand: true
 
     grid:
       sidebar-width: 300px
@@ -147,8 +149,8 @@ format:
       margin-width: 300px
       gutter-width: 1.5rem
 
-    link-external-icon: true       ## Show a special icon next to links that leave the current site.
-    link-external-newwindow: true  ## Open external links in a new browser window.
+    link-external-icon: true       ## Displays a special icon next to links that leave the current site.
+    link-external-newwindow: true  ## Opens external links in a new browser window.
 
     # Global default appearance for all callouts.
     #
@@ -157,6 +159,8 @@ format:
     # default - with header color and icon.
     #
     callout-appearance: simple
+
+    code-copy: true ## Displays the code-copy button at all times.
        
-    #embed-resources: true
+    #embed-resources: true ## Produces a standalone HTML file with no external dependencies.
 

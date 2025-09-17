@@ -5,4 +5,72 @@ format:
     title-block-banner: "Assets/cover.png"
 ---
 
-Describe what this course is all about and describe course details and content.
+# About the Course
+
+This C# Programming course is designed to take learners from the fundamentals of programming to advanced software development skills using the modern features of C# and .NET. Whether you are new to coding or looking to sharpen your expertise, the course provides a structured learning path with practical examples, real-world applications and hands-on projects.
+
+C# is one of the most versatile and powerful programming languages in use today. From building desktop applications and web APIs to enterprise systems and cloud-native solutions, C# remains a key tool in the software development world. This course is structured to equip students with both the theoretical understanding and practical skills necessary to succeed as a developer.
+
+# What You Will Learn
+
+-   Beginner Level
+
+    -   Introduction to programming and .NET ecosystem
+
+    -   Understanding syntax, variables and data types
+
+    -   Control flow (conditions, loops and iterations)
+
+    -   Methods, parameters and return values
+
+    -   Arrays, collections and basic data structures
+
+    -   Object-Oriented Programming (OOP) fundamentals: classes, objects, inheritance and polymorphism
+
+    -   Error handling and debugging
+
+-   Intermediate to Advanced Level
+
+    -   Generics, LINQ, and lambda expressions
+
+    -   Asynchronous programming with async/await
+
+    -   File I/O and working with streams
+
+    -   Modern C# features (records, pattern matching, spans and more)
+
+    -   Advanced OOP concepts and design patterns
+
+    -   Dependency injection and modular programming
+
+    -   Building applications with .NET 8 (console, desktop, web and APIs)
+
+    -   Unit testing and best practices
+
+    -   Performance optimization and memory management
+
+    -   Deployment and version control fundamentals
+
+# Course Highlights
+
+-   Structured learning path – from fundamentals to advanced techniques
+
+-   Hands-on coding examples, coding challenges and projects
+
+-   Practical focus – concepts applied directly to problem-solving and application design
+
+-   Up-to-date content – using the latest C# and .NET features
+
+-   For all levels – accessible to beginners, valuable to experienced developers
+
+# Who Is This Course For?
+
+-   Beginners with little or no prior programming experience
+
+-   Students looking to strengthen their coding foundation
+
+-   Professionals seeking to upgrade their skills in C# and .NET
+
+-   Developers transitioning from other languages to C#
+
+👉 By the end of this course, you will have the knowledge and confidence to design, develop and deploy robust applications using C#.

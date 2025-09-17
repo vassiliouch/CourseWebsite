@@ -27,11 +27,11 @@ about:
 
 I am an educator, developer and trader with experience in the areas of:
 
--   **Banking**
+-   Banking
 
--   **Financial Markets**
+-   Financial Markets
 
--   **Software Engineering**
+-   Software Engineering
 
 I create courses that combine real-world knowledge with practical examples.
 

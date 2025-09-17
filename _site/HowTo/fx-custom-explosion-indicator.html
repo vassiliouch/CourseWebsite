@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chris Vassiliou">
-<meta name="dcterms.date" content="2025-09-09">
 <meta name="description" content="Learn how to implement a custom explosion indicator in C# using cTrader’s API, combining MACD, Bollinger Bands and ATR.">
 
 <title>How to Build a Custom Explosion Indicator in cTrader</title>
@@ -72,16 +71,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a05e60d4d4ee073bd2405a74ad263c7b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-fc73c8f65b82cb9dc713e4f04c2105c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-a05e60d4d4ee073bd2405a74ad263c7b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8492b338587c2e901ca7c13c202c4167.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-c90c11141831203f8ec5fd3ff0e1da1e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-8492b338587c2e901ca7c13c202c4167.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -358,7 +356,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
+            <div class="quarto-navbar-tools">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-tools"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -385,11 +383,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </ul>
     </div>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -399,7 +392,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">≣</h2>
    
   <ul>
@@ -449,7 +442,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 9, 2025</p>
+      <p class="date">Sep 9, 2025</p>
     </div>
   </div>
   
@@ -462,7 +455,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<h2 data-anchor-id="overview">Overview</h2>
 <p>In this guide, we’ll create a <strong>Custom Explosion Indicator</strong> for cTrader using <strong>cAlgo API</strong> in C#.<br>
 The indicator combines three technical tools:</p>
 <ul>
@@ -476,7 +469,7 @@ The indicator combines three technical tools:</p>
 <hr>
 </section>
 <section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<h2 data-anchor-id="prerequisites">Prerequisites</h2>
 <p>Before starting, you should have:</p>
 <ul>
 <li>Basic familiarity with <strong>C# programming</strong>.<br>
@@ -488,7 +481,7 @@ The indicator combines three technical tools:</p>
 <hr>
 </section>
 <section id="step-1-define-input-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-define-input-parameters">Step 1 — Define Input Parameters</h2>
+<h2 data-anchor-id="step-1-define-input-parameters">Step 1 — Define Input Parameters</h2>
 <p>We start by exposing configurable parameters for Bollinger Bands and MACD:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">[</span><span class="fu">Parameter</span><span class="op">(</span><span class="st">"Period"</span><span class="op">,</span> Group <span class="op">=</span> <span class="st">"Bollinger Bands"</span><span class="op">,</span> DefaultValue <span class="op">=</span> <span class="dv">10</span><span class="op">)]</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">int</span> InpBBPeriod <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
@@ -503,7 +496,7 @@ The indicator combines three technical tools:</p>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">int</span> InpMACDShortPeriod <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-2-declare-outputs" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-declare-outputs">Step 2 — Declare Outputs</h2>
+<h2 data-anchor-id="step-2-declare-outputs">Step 2 — Declare Outputs</h2>
 <p>We define the output series (plotted on the chart):</p>
 <ul>
 <li><p>Bullish &amp; Bearish trend histograms.</p></li>
@@ -529,7 +522,7 @@ The indicator combines three technical tools:</p>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IndicatorDataSeries SellSignal <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-3-initialize-indicators" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-initialize-indicators">Step 3 — Initialize Indicators</h2>
+<h2 data-anchor-id="step-3-initialize-indicators">Step 3 — Initialize Indicators</h2>
 <p>Inside Initialize(), we set up references to MACD, Bollinger Bands and ATR:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">private</span> MacdCrossOver mMACD<span class="op">;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">private</span> BollingerBands mBB<span class="op">;</span></span>
@@ -544,7 +537,7 @@ The indicator combines three technical tools:</p>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-4-implement-the-logic" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-implement-the-logic">Step 4 — Implement the Logic</h2>
+<h2 data-anchor-id="step-4-implement-the-logic">Step 4 — Implement the Logic</h2>
 <p>The core of the indicator is in the Calculate() method:</p>
 <ul>
 <li><p>Reset buy/sell signals.</p></li>
@@ -582,7 +575,7 @@ The indicator combines three technical tools:</p>
 <span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-5-use-the-indicator" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-use-the-indicator">Step 5 — Use the Indicator</h2>
+<h2 data-anchor-id="step-5-use-the-indicator">Step 5 — Use the Indicator</h2>
 <ul>
 <li><p>Attach the indicator to a chart in cTrader.</p></li>
 <li><p>Adjust Bollinger Band period, MACD parameters and threshold multiplier to fit your strategy.</p></li>
@@ -591,7 +584,7 @@ The indicator combines three technical tools:</p>
 </ul>
 </section>
 <section id="indicator-screenshot" class="level2">
-<h2 class="anchored" data-anchor-id="indicator-screenshot">Indicator Screenshot</h2>
+<h2 data-anchor-id="indicator-screenshot">Indicator Screenshot</h2>
 <p>Here’s how the <strong>Custom Explosion Indicator</strong> looks in cTrader:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -601,7 +594,7 @@ The indicator combines three technical tools:</p>
 </div>
 </section>
 <section id="troubleshooting-tips" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting-tips">Troubleshooting &amp; Tips</h2>
+<h2 data-anchor-id="troubleshooting-tips">Troubleshooting &amp; Tips</h2>
 <ul>
 <li><p>If signals are too frequent, increase the ATR multiplier.</p></li>
 <li><p>If signals are too rare, decrease the ATR multiplier or shorten MACD periods.</p></li>
@@ -609,19 +602,19 @@ The indicator combines three technical tools:</p>
 </ul>
 </section>
 <section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<h2 data-anchor-id="summary">Summary</h2>
 <p>We have built a Custom Explosion Indicator in cTrader by combining MACD, Bollinger Bands and ATR. This indicator detects strong bullish or bearish bursts (explosions) and highlights potential entry points.</p>
 </section>
 <section id="further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<h2 data-anchor-id="further-reading">Further Reading</h2>
 <p><a href="https://help.ctrader.com/ctrader-algo/how-tos-index/">cTrader Automate API Documentation</a></p>
 <p><a href="https://www.investopedia.com/terms/m/macd.asp">MACD Indicator Basics</a></p>
 <p><a href="https://www.bollingerbands.com/">Bollinger Bands</a></p>
 <p><a href="https://www.investopedia.com/terms/a/atr.asp">ATR Explained</a></p>
 </section>
 <section id="download-source-code" class="level2">
-<h2 class="anchored" data-anchor-id="download-source-code">Download Source Code</h2>
-<p><a href="../HowTo/fx-custom-explosion-indicator.cs" class="btn" download="CustomExplosion.cs">📥 Download Source</a></p>
+<h2 data-anchor-id="download-source-code">Download Source Code</h2>
+<p><a href="../HowTo/fx-custom-explosion-indicator.cs" class="btn" download="CustomExplosion.cs">Download Source</a></p>
 
 
 </section>
@@ -642,13 +635,6 @@ The indicator combines three technical tools:</p>
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -1051,7 +1037,7 @@ The indicator combines three technical tools:</p>
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>
-© 2025 Clarity &amp; Vision <br> Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> CC BY 4.0
+© 2025 Creative Ventures <br> Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> CC BY 4.0
 </p>
 </div>   
     <div class="nav-footer-center">

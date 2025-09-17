@@ -6,7 +6,6 @@ listing:
     - "../HowTo/*.qmd"  
   type: grid
   sort: "date desc"   # show newest first
-  date-format: medium
   fields: [image, date, title, author, reading-time]
   categories: true
   sort-ui: true

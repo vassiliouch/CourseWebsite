@@ -9,12 +9,7 @@ There are basically two methods used to print information within a program.
 | Console.Write()     | Prints info on a line.                        |
 | Console.WriteLine() | Prints info on a line followed by a new line. |
 
-<br><br>
-
-``` csharp
-Console.Write("This is line one.");
-Console.Write("This is line two.");
-```
+<br>
 
 ::: panel-tabset
 ## Write()
@@ -75,10 +70,25 @@ This is line two.
 ## Variables and Data Types
 
 ```{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
-  D --> F
+flowchart BT
+  subgraph sub2["memory"]
+      sub2Content["20"]
+  end
+
+  subgraph sub1[" "]
+      sub1Content["X"]
+  end
+
+  varName["variable name"] --> sub1Content
+  varValue["variable value"] --> sub2Content                                                                                                                
+
+  %% Styling
+  style sub1 stroke:none, fill:none
+  style sub2 stroke:black, stroke-width:1px, rx:10, ry:10
+  style sub1Content stroke:none, fill:none
+  style sub2Content stroke:none, fill:none
+  style varName stroke:none, fill:none
+  style varValue stroke:none, fill:none
+
+  linkStyle default stroke:red, stroke-width:4px
 ```

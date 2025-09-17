@@ -10,16 +10,37 @@
 $th-page-bg: $white !default;
 $th-page-text: $black !default;
 
-$th-navigation-bg: $blue !default;
-$th-navigation-text: $white !default;
+$th-navigation-bg: $white !default;
+$th-navigation-text: $black !default;
 
-$th-heading-text: $blue !default;
+$th-dropdown-bg: $red !default;
+$th-dropdown-text: $white !default;
+
+$th-h1-text: $black !default;
+$th-h2-text: $blue !default;
+$th-h3-text: $orange !default;
+
+$th-code-block-bg: $gray-200 !default;
+
+$th-button-copy: $black !default;
+$th-button-copy-active: $red !default;
+
+$th-footer-bg: $red !default;
+$th-footer-text: $white !default;
 
 //*******************************************************************
-// Bootstrap's Sass variables.
+// Sass variables.
 //*******************************************************************
 $body-bg: $th-page-bg !default;
 $body-color: $th-page-text !default;
+
+$navbar-bg: $th-navigation-bg !default;
+$navbar-fg: $th-navigation-text !default;
+$navbar-hl: $th-navigation-text !default;
+
+$sidebar-bg: $th-page-bg !default;
+$sidebar-fg: $th-page-text !default;
+$sidebar-hl: $th-page-text !default;
 
 $link-color: $th-page-text !default;
 $link-hover-color: $red !default;
@@ -27,6 +48,26 @@ $link-hover-color: $red !default;
 $toc-color: $th-page-text !default;
 $toc-active-border: $red !default;
 $toc-inactive-border: $th-page-bg !default;
+
+$callout-border-width: 1.0rem !default;
+$callout-icon-scale: 50% !default;
+$callout-margin-top: 1.0rem !default;
+$callout-margin-bottom: 1.0rem !default;
+$callout-color-note: $indigo !default;
+$callout-color-tip: $red !default;
+$callout-color-caution: $red !default;
+$callout-color-warning: $yellow !default;
+$callout-color-important: $red !default;
+
+$code-block-bg: $th-code-block-bg !default;
+
+$btn-code-copy-color: $th-button-copy !default;
+$btn-code-copy-color-active: $th-button-copy-active !default;
+
+$content-padding-top: 2.0rem !default;
+
+$footer-bg: $th-footer-bg !default;
+$footer-fg: $th-footer-text !default;
 
 // Options.
 $enable-rounded: true !default; // Softens tab corners.
@@ -38,13 +79,13 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 // Anchor links.
 //*******************************************************************
 .anchorjs-link {
-  background-color: lighten($red, 20%);
-  color: $black;
+  background-color: tint-color($red, 50%);
+  color: $white;
   border-radius: 0.8rem;
 
   &:hover {
-    background-color: lighten($red, 30%);
-    color: $black;
+    background-color: $red;
+    color: $white;
     border-radius: 0.8rem;
   }
 }
@@ -53,30 +94,25 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 // Navbar and Dropdowns(submenus).
 //*******************************************************************
 .navbar {
-  background-color: $th-navigation-bg;
-  color: $th-navigation-text;
   padding: 1.2rem 0; // Top & bottom = 1.2rem. Right & left = 0.
   
   .nav-link {
-    background-color: inherit;
-    color: inherit;  
     text-decoration: none; // No underline by default.
     
     &:hover {
-      text-decoration: underline $th-navigation-text solid 0.1rem;
+      text-decoration: underline $th-navigation-text solid 0.2rem;
     }
 
     &.active {
-      color: $th-navigation-text;
-      text-decoration: underline $th-navigation-text solid 0.1rem;
+      text-decoration: underline $th-navigation-text solid 0.2rem;
     }    
   }
 
   .dropdown-menu {
     background-color: $white;
     color: $black;
-    border: 0.2rem solid $white;
-    border-radius: 0.2rem;
+    border: 0.1rem solid $gray-400;
+    border-radius: 0.1rem;
     box-shadow: 0.2rem 0.2rem 0.4rem $gray-400;
     display: none; // Do not display dropdown on click.
   }
@@ -87,9 +123,9 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     padding: 0.5rem 1.5rem;
 
     &:hover {
-      background-color: $th-navigation-bg;
-      color: $th-navigation-text;
-      border-radius: 0.2rem;
+      background-color: $th-dropdown-bg;
+      color: $th-dropdown-text;
+      border-radius: 0.1rem;
     }
   }
 
@@ -104,12 +140,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 // Sidebar.
 //*******************************************************************
 .sidebar {
-  background-color: $th-page-bg;
-  color: $th-page-text;
-  
   a {
-    background-color: inherit;
-    color: inherit;
     padding: 0.3rem;
 
     &.active {
@@ -136,7 +167,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
   }
 
   th {
-    background-color: darken($blue, 20%);
+    background-color: $blue;
     color: $white;
     font-weight: 500;
   }
@@ -157,7 +188,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
       }
 
       &:hover {
-        background-color: lighten($yellow, 20%) !important; // Ensure hover color takes precedence.
+        background-color: tint-color($yellow, 50%) !important; // Ensure hover color takes precedence.
       }
     }
   }
@@ -166,24 +197,22 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 //*******************************************************************
 // Headings.
 //*******************************************************************
-h1, h2 {
-  color: $th-heading-text;
+h1 {
+  color: $th-h1-text;
   border-bottom: none !important;
+  font-weight: bold;
 }
 
-//*******************************************************************
-// Footer.
-//*******************************************************************
-.footer {
-  .nav-footer {
-    background-color: $th-navigation-bg;
-    color: $th-navigation-text;
+h2 {
+  color: $th-h2-text;
+  border-bottom: none !important;
+  font-weight: bold;
+}
 
-    a {
-      background-color: inherit;
-      color: inherit;
-    }
-  }
+h3 {
+  color: $th-h3-text;
+  border-bottom: none !important;
+  font-size: 1.0rem;
 }
 
 //*******************************************************************
@@ -192,7 +221,6 @@ h1, h2 {
 .callout {
   background-color: $gray-100;
   color: $black;
-  border-left-width: 1.0rem !important;
   
   .callout-header {
     margin-bottom: 1.0rem !important;
@@ -206,36 +234,27 @@ h1, h2 {
 }
 
 //*******************************************************************
-// Code blocks.
-//*******************************************************************
-.sourceCode {
-  background-color: transparent; 
-  padding: 0.4rem;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-//*******************************************************************
 // Tabs.
 //*******************************************************************
 .panel-tabset {
+  $bg: $blue;
+
   background-color: $white;
   color: $black;
 
   .nav-tabs {
-    background-color: darken($blue, 20%);
+    background-color: $bg;
     border: 0.1rem solid $gray-400;
 
     .nav-link {
-      background-color: darken($blue, 20%);
+      background-color: $bg;
       color: $white;
       border: none;
       border-right: 0.1rem solid $gray-400;
-      //border-radius: 0.4rem 0.2rem 0 0;
 
       &:hover {
-        background-color: lighten($blue, 10%);
-        color: $white;
+        background-color: tint-color($bg, 50%);
+        color: $black;
       }
 
       &.active {
@@ -250,12 +269,12 @@ h1, h2 {
 // Buttons.
 //*******************************************************************
 .btn {
-  $bg: $yellow;
+  $bg: $orange;
 
   background-color: $bg;
   color: $black;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 2.0rem;
   font-size: 1.0rem;
   font-weight: 400;
   padding: 0.5rem 1.0rem;
@@ -263,11 +282,12 @@ h1, h2 {
   transition: $bg 0.2s ease-in-out;
 
   // 3D effect.
-  box-shadow: 2px 4px 0 darken($bg, 20%);
+  box-shadow: 1px 1.5px 0 shade-color($bg, 60%);
   
   &:hover {
-    background-color: lighten($bg, 20%);
+    background-color: tint-color($bg, 50%);
     color: $black;
+    box-shadow: 1px 1.5px 0 shade-color($bg, 30%);
     transform: translateY(-2px); // Lift the button slightly.
   }
 }

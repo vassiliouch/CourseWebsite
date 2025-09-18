@@ -1,3 +1,5 @@
-# Syllabus
+---
+title: 📘 Syllabus
+---
 
 This is the C# Programming syllabus.

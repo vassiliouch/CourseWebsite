@@ -3,8 +3,9 @@ title: "Chris Vassiliou"
 
 about:
   template: solana
-  image: Assets/Images/myPhoto.jpg
+  image: Assets/myPhoto.jpg
   image-shape: round
+  
   links: 
     - icon: linkedin
       text: LinkedIn
@@ -21,7 +22,7 @@ about:
       
     - icon: file-person-fill
       text: Resume
-      href: Assets/PDFs/resume.pdf
+      href: Assets/resume.pdf
       target: _blank 
 ---
 

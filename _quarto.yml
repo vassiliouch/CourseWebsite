@@ -4,7 +4,7 @@
 project:
   type: website
   resources:
-    - Assets/PDFs/resume.pdf
+    - Assets/resume.pdf
 
 ############################################################
 # Language.
@@ -16,12 +16,13 @@ language:
 # Website.
 ############################################################
 website:
-  favicon: Assets/Images/logo-icon.png
+  favicon: Assets/logo-icon.png
   title: ""
   page-navigation: true ## Provides next and previous page links in footer.
   back-to-top-navigation: true
   reader-mode: false ## Enables/disables the icon that hides sidebar and toc contents.
   bread-crumbs: false
+
   search:
     location: navbar
     type: textbox ## Selects the type of search UI.
@@ -29,8 +30,11 @@ website:
     show-item-context: true ## Shows search result parents.
 
   navbar:
-    logo: Assets/Images/logo-icon.png
+    logo: Assets/logo-icon.png
     pinned: true ## Keeps the navbar visible during page scrolling.
+    toggle-position: left ## The position of the collapsed navbar toggle.
+    tools-collapse: false ## Do not collapse tools when the display becomes narrow. Keep them on the navbar.
+
     left:
       - text: Home
         href: index.qmd
@@ -85,25 +89,23 @@ website:
       alignment: left
       border: false
       collapse-level: 1
+      pinned: true ## When collapsed, pin the sidebar to the top of the page.
+
       contents:
         - Courses/CSharp/index.qmd
         - Courses/CSharp/syllabus.qmd
 
-        - section: "Chapters"
-          contents: 
-            - Courses/CSharp/ch01-language-basics.qmd
-            - Courses/CSharp/ch02-decision-making.qmd
-            - Courses/CSharp/ch03-iterations.qmd
+        - section: <span style="color:#e0095f; font-size:1.2rem;">★☆☆</span> Beginner
+          contents:
+            - Courses/CSharp/Ch01/notes01.qmd
+            - Courses/CSharp/Ch02/notes02.qmd
+            - Courses/CSharp/Ch03/notes03.qmd
 
-        - section: "Exercises"    
-          contents: 
-            - Courses/CSharp/exercises.qmd
+        - section: <span style="color:#e0095f; font-size:1.2rem;">★★☆</span> Intermediate
 
-        - section: "Assignments"    
-          contents: 
-            - Courses/CSharp/assignments.qmd
+        - section: <span style="color:#e0095f; font-size:1.2rem;">★★★</span> Advanced
 
-        - section: "Appendices"
+        - section: 📚 Appendices
           contents: 
             - Courses/CSharp/Appendices/appendixA-binary-system.qmd
         
@@ -129,29 +131,19 @@ format:
     theme:
       light: [Styles/theme.scss]
       dark: [Styles/theme.scss, Styles/theme-dark.scss]
-    respect-user-color-scheme: true  
-
-    date-format: medium
 
     anchor-sections: false ## Enables/disables an anchor link when hovering over a section title.
+    code-copy: true ## Displays the code-copy button at all times.
+    #embed-resources: true ## Produces a standalone HTML file with no external dependencies.
+    link-external-icon: true ## Displays a special icon next to links that leave the current site.
+    link-external-newwindow: true ## Opens external links in a new browser window.
     smooth-scroll: true
-    fig-cap-location: bottom
-    tbl-cap-location: bottom  
-    
+    respect-user-color-scheme: true  
+    tabsets: true
+    title-block-categories: true
     toc: true
-    toc-title: ≣  
-    toc-location: right
     toc-expand: true
-
-    grid:
-      sidebar-width: 300px
-      body-width: 900px
-      margin-width: 300px
-      gutter-width: 1.5rem
-
-    link-external-icon: true       ## Displays a special icon next to links that leave the current site.
-    link-external-newwindow: true  ## Opens external links in a new browser window.
-
+    
     # Global default appearance for all callouts.
     #
     # minimal - without header color and icon.
@@ -159,8 +151,26 @@ format:
     # default - with header color and icon.
     #
     callout-appearance: simple
+    
+    code-fold: show
+    code-line-numbers: true
+    code-overflow: scroll
 
-    code-copy: true ## Displays the code-copy button at all times.
-       
-    #embed-resources: true ## Produces a standalone HTML file with no external dependencies.
+    date-format: medium
+
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem        
+
+    fig-cap-location: bottom
+
+    tbl-cap-location: bottom  
+    
+    toc-title: ≣  
+    toc-location: right
+
+
+
 

@@ -1,4 +1,6 @@
-# Appendix A - Binary System
+---
+title: Appendix A - Binary System
+---
 
 ## What is Binary?
 
@@ -25,14 +27,14 @@ So 10110~2~ = (1 x 16) + (0 x 8) + (1 x 4) + (1 x 2) + (0 x 1) = 16 + 0 + 4 + 2 
 
 Convert decimal 45 to binary by repeated division by 2, collecting remainders:
 
-| Division Steps | Quotient | Remainder |
-|----------------|---------:|----------:|
-| 45 ÷ 2         |       22 |         <span style="color:red; font-weight:bold;">1</span> |
-| 22 ÷ 2         |       11 |         <span style="color:red; font-weight:bold;">0</span> |
-| 11 ÷ 2         |        5 |         <span style="color:red; font-weight:bold;">1</span> |
-| 5 ÷ 2          |        2 |         <span style="color:red; font-weight:bold;">1</span> |
-| 2 ÷ 2          |        1 |         <span style="color:red; font-weight:bold;">0</span> |
-| 1 ÷ 2          |        0 |         <span style="color:red; font-weight:bold;">1</span> |
+| Division Steps | Quotient |                                 Remainder |
+|----------------|---------:|------------------------------------------:|
+| 45 ÷ 2         |       22 | [1]{style="color:red; font-weight:bold;"} |
+| 22 ÷ 2         |       11 | [0]{style="color:red; font-weight:bold;"} |
+| 11 ÷ 2         |        5 | [1]{style="color:red; font-weight:bold;"} |
+| 5 ÷ 2          |        2 | [1]{style="color:red; font-weight:bold;"} |
+| 2 ÷ 2          |        1 | [0]{style="color:red; font-weight:bold;"} |
+| 1 ÷ 2          |        0 | [1]{style="color:red; font-weight:bold;"} |
 
 Read remainders from bottom to top: 101101
 
@@ -49,11 +51,11 @@ Add from LSB to MSB, tracking carry:
 1 1 0 1 +
 
 | Addition Steps | Sum Bit | Carry Bit |
-|----------------|--------:|----------:|
-| 1 + 1          |       <span style="color:red; font-weight:bold;">0</span> |         1 |
-| 1 + 0 + 1      |       <span style="color:red; font-weight:bold;">0</span> |         1 |
-| 0 + 1 + 1      |       <span style="color:red; font-weight:bold;">0</span> |         1 |
-| 1 + 1 + 1      |       <span style="color:red; font-weight:bold;">1</span> |         <span style="color:red; font-weight:bold;">1</span> |
+|--------------------------------|-----------------:|---------------------:|
+| 1 + 1 | [0]{style="color:red; font-weight:bold;"} | 1 |
+| 1 + 0 + 1 | [0]{style="color:red; font-weight:bold;"} | 1 |
+| 0 + 1 + 1 | [0]{style="color:red; font-weight:bold;"} | 1 |
+| 1 + 1 + 1 | [1]{style="color:red; font-weight:bold;"} | [1]{style="color:red; font-weight:bold;"} |
 
 Final carry becomes new MSB
 

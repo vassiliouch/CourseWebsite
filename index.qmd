@@ -2,7 +2,7 @@
 title: "Welcome to Creative Ventures' learning portal"
 ---
 
-![](Assets/Images/logo-full.png){style="height:10rem;"}
+![](Assets/logo-full.png){style="height:10rem;"}
 
 This is a collection of courses in programming, web development and trading.
 

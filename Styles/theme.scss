@@ -53,11 +53,11 @@ $callout-border-width: 1.0rem !default;
 $callout-icon-scale: 50% !default;
 $callout-margin-top: 1.0rem !default;
 $callout-margin-bottom: 1.0rem !default;
-$callout-color-note: $indigo !default;
-$callout-color-tip: $red !default;
-$callout-color-caution: $red !default;
 $callout-color-warning: $yellow !default;
+$callout-color-note: $green !default;
+$callout-color-caution: $red !default;
 $callout-color-important: $red !default;
+$callout-color-tip: $red !default;
 
 $code-block-bg: $th-code-block-bg !default;
 
@@ -144,7 +144,7 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
     padding: 0.3rem;
 
     &.active {
-      border: 0.15rem solid $red;
+      border: 0.08rem solid $red;
       border-radius: 0.8rem;
     }    
 

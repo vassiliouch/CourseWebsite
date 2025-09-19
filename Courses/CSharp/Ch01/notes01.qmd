@@ -52,7 +52,7 @@ This is line two.
 
 ## Comments
 
-::: {.callout-warning title = "What is a comment ?" appearance="minimal"}
+::: {.callout-warning title = "What is a comment?" appearance="minimal"}
 
 -   A comment is a text note that is ignored by a program.
 -   It helps document a program for better readability and understanding of logic.
@@ -70,6 +70,14 @@ This is line two.
 :::
 
 ## Variables and Data Types
+
+::: {.callout-warning title = "What is a variable?" appearance="minimal"}
+
+A variable is a location in computer memory. It has a name (identifier) and a value (literal).
+
+:::
+
+![](Assets/variable-memory.png){width=50%}
 
 ```{mermaid}
 flowchart BT
@@ -94,6 +102,12 @@ flowchart BT
 
   linkStyle default stroke:red, stroke-width:4px
 ```
+
+::: {.callout-warning title = "What is a data type?" appearance="minimal"}
+
+A data type is a description of the type of data a variable can store.
+
+:::
 
 ## Exercises
 

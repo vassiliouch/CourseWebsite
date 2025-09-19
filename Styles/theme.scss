@@ -18,7 +18,7 @@ $th-dropdown-text: $white !default;
 
 $th-h1-text: $black !default;
 $th-h2-text: $blue !default;
-$th-h3-text: $orange !default;
+$th-h3-text: $red !default;
 
 $th-code-block-bg: $gray-200 !default;
 
@@ -137,15 +137,37 @@ $enable-shadows: true !default; // Turns on dropdown/submenu shadows.
 }
 
 //*******************************************************************
-// Sidebar.
+// Left sidebar.
 //*******************************************************************
-.sidebar {
+.sidebar-navigation {
   a {
     padding: 0.3rem;
 
     &.active {
       border: 0.08rem solid $red;
       border-radius: 0.8rem;
+      border-right: 0.10rem solid $red;
+      border-bottom: 0.15rem solid $red;
+    }    
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}
+
+//*******************************************************************
+// Right sidebar.
+//*******************************************************************
+.margin-sidebar {
+  a {
+    padding: 0.3rem;
+
+    &.active {
+      border: 0.08rem solid $red;
+      border-radius: 0.8rem;
+      border-right: 0.10rem solid $red;
+      border-bottom: 0.15rem solid $red;
     }    
 
     &:hover {
@@ -212,7 +234,8 @@ h2 {
 h3 {
   color: $th-h3-text;
   border-bottom: none !important;
-  font-size: 1.0rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 //*******************************************************************
@@ -291,3 +314,15 @@ h3 {
     transform: translateY(-2px); // Lift the button slightly.
   }
 }
+
+//*******************************************************************
+// Search.
+//*******************************************************************
+// Change the background color of the active search selection.
+.aa-Item[aria-selected="true"] * {
+  background-color: $yellow !important;
+}
+
+
+
+

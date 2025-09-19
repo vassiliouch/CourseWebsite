@@ -28,6 +28,7 @@ website:
     type: textbox ## Selects the type of search UI.
     copy-button: true
     show-item-context: true ## Shows search result parents.
+    collapse-after: 2
 
   navbar:
     logo: Assets/logo-icon.png
@@ -95,19 +96,24 @@ website:
         - Courses/CSharp/index.qmd
         - Courses/CSharp/syllabus.qmd
 
-        - section: <span style="color:#e0095f; font-size:1.2rem;">★☆☆</span> Beginner
+        - section: Beginner
           contents:
             - Courses/CSharp/Ch01/notes01.qmd
             - Courses/CSharp/Ch02/notes02.qmd
             - Courses/CSharp/Ch03/notes03.qmd
 
-        - section: <span style="color:#e0095f; font-size:1.2rem;">★★☆</span> Intermediate
+        - section: Intermediate
+          contents: 
+            - Courses/CSharp/Ch11/notes11.qmd
 
-        - section: <span style="color:#e0095f; font-size:1.2rem;">★★★</span> Advanced
+        - section: Advanced
+          contents: 
+            - Courses/CSharp/Ch21/notes21.qmd
 
-        - section: 📚 Appendices
+        - section: Appendices
           contents: 
             - Courses/CSharp/Appendices/appendixA-binary-system.qmd
+            - Courses/CSharp/Appendices/appendixB-compilers.qmd
         
         - Courses/CSharp/references.qmd
 
@@ -168,9 +174,9 @@ format:
 
     tbl-cap-location: bottom  
     
-    toc-title: ≣  
+    toc-title: ≣ 
     toc-location: right
-
+    
 
 
 

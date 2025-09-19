@@ -1,5 +1,6 @@
 ---
-title: 🌐 References
+title: References {{< fa arrow-up-right-from-square >}}
 ---
 
 [C# Version History](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions)
+

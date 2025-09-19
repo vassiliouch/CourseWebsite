@@ -1,0 +1,83 @@
+---
+title: Appendix B - Compilers
+---
+
+1.  What is a Compiler?
+
+A compiler is a special program that translates source code (written by humans in a high-level programming language like C#, Java, or C++) into machine code that a computer can execute directly.
+
+High-level language (HLL): Easy for humans to read/write. (e.g., Console.WriteLine("Hello");)
+
+Machine language: Binary instructions (0s and 1s) understood by the CPU.
+
+Compiler’s role: Act as a bridge between these two worlds.
+
+Diagram: General Compilation Process Source Code (C#, C++, Java, etc.) \| v \[ Compiler \] \| v Machine Code / Executable File
+
+2.  Steps in Compilation (General Theory)
+
+Most compilers go through several well-defined phases:
+
+Lexical Analysis Breaks the source code into tokens (keywords, identifiers, operators, etc.).
+
+Syntax Analysis (Parsing) Ensures code follows language grammar. Produces a parse tree/AST (Abstract Syntax Tree).
+
+Semantic Analysis Checks meaning: variable types, scope rules, function calls, etc.
+
+Intermediate Code Generation Translates AST into an intermediate representation (IR), easier to optimize.
+
+Optimization Improves code efficiency (speed, memory usage).
+
+Code Generation Converts IR into target machine code (e.g., x86, ARM).
+
+Linking Combines compiled code with libraries and runtime support into an executable file.
+
+Diagram: Detailed Compilation Pipeline Source Code \| v +------------------+ \| Lexical Analysis \| +------------------+ \| v +------------------+ \| Syntax Analysis \| +------------------+ \| v +------------------+ \| Semantic Analysis\| +------------------+ \| v +-----------------------------+ \| Intermediate Representation \| +-----------------------------+ \| v +------------------+ \| Optimization \| +------------------+ \| v +------------------+ \| Code Generation \| +------------------+ \| v Executable File
+
+3.  How a Microsoft C# Compiler Works
+
+C# compilation is a bit different from traditional compilers because it is designed to run on the .NET platform.
+
+The Microsoft C# compiler (csc.exe) does not compile directly into machine code. Instead, it produces an Intermediate Language (IL) file (also called MSIL or CIL), which is then executed by the .NET runtime (CLR - Common Language Runtime).
+
+Step-by-Step Compilation in C#
+
+Source Code (C#) Example:
+
+using System; class Program { static void Main() { Console.WriteLine("Hello, World!"); } }
+
+C# Compiler (csc.exe) Converts source into CIL (Common Intermediate Language) and stores it in an assembly (.exe or .dll).
+
+csc Program.cs --\> Program.exe (CIL code inside)
+
+Execution (CLR – Common Language Runtime) When you run the program:
+
+The CLR’s JIT (Just-In-Time Compiler) compiles CIL into native machine code.
+
+The native code is executed by the CPU.
+
+Diagram: C# Compilation and Execution C# Source Code \| v \[C# Compiler\] \| v Intermediate Language (IL) + Metadata \| v \[.exe / .dll Assembly\] \| v CLR (Common Language Runtime) \| v \[JIT Compilation to Machine Code\] \| v Execution on CPU
+
+4.  Key Features of the C# Compilation Model
+
+Portable IL Code: The IL is platform-agnostic, so the same .exe can run on Windows, Linux, or macOS (via .NET runtime).
+
+Metadata: Assemblies contain type information, method signatures, and security details for runtime checks.
+
+JIT vs. AOT:
+
+JIT (Just-In-Time): Compiles IL to native code at runtime (default).
+
+AOT (Ahead-Of-Time): Possible with tools like NativeAOT to precompile to machine code.
+
+5.  Summary
+
+A compiler translates human-readable code into machine-executable form.
+
+In general, compilers work in multiple phases: lexical, syntax, semantic, optimization, code generation.
+
+The Microsoft C# compiler (csc.exe) generates Intermediate Language (IL), stored in an assembly (.exe or .dll).
+
+The CLR (Common Language Runtime) uses a JIT compiler to translate IL into machine code at runtime.
+
+This two-step approach (compile to IL, then JIT to native) allows C# programs to be portable, secure, and optimized.

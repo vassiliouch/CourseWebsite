@@ -182,4 +182,4 @@ We have built a Custom Explosion Indicator in cTrader by combining MACD, Bolling
 
 ## Download Source Code
 
-[Download Source](../HowTo/fx-custom-explosion-indicator.cs){.btn download="CustomExplosion.cs"}
+[{{< fa download >}} Download Source](../HowTo/fx-custom-explosion-indicator.cs){.btn download="CustomExplosion.cs"}

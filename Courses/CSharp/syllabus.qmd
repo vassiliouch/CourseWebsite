@@ -1,5 +1,5 @@
 ---
-title: 📘 Syllabus
+title: Syllabus {{< fa list >}}
 ---
 
 This is the C# Programming syllabus.

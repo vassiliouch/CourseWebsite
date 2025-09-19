@@ -1,0 +1,447 @@
+[
+  {
+    "objectID": "Courses/CSharp/index.html",
+    "href": "Courses/CSharp/index.html",
+    "title": "C# Programming",
+    "section": "",
+    "text": "About the Course\nThis C# Programming course is designed to take learners from the fundamentals of programming to advanced software development skills using the modern features of C# and .NET. Whether you are new to coding or looking to sharpen your expertise, the course provides a structured learning path with practical examples, real-world applications and hands-on projects.\nC# is one of the most versatile and powerful programming languages in use today. From building desktop applications and web APIs to enterprise systems and cloud-native solutions, C# remains a key tool in the software development world. This course is structured to equip students with both the theoretical understanding and practical skills necessary to succeed as a developer.\n\n\nWhat You Will Learn\n\nBeginner Level\n\nIntroduction to programming and .NET ecosystem\nUnderstanding syntax, variables and data types\nControl flow (conditions, loops and iterations)\nMethods, parameters and return values\nArrays, collections and basic data structures\nObject-Oriented Programming (OOP) fundamentals: classes, objects, inheritance and polymorphism\nError handling and debugging\n\nIntermediate to Advanced Level\n\nGenerics, LINQ, and lambda expressions\nAsynchronous programming with async/await\nFile I/O and working with streams\nModern C# features (records, pattern matching, spans and more)\nAdvanced OOP concepts and design patterns\nDependency injection and modular programming\nBuilding applications with .NET 8 (console, desktop, web and APIs)\nUnit testing and best practices\nPerformance optimization and memory management\nDeployment and version control fundamentals\n\n\n\n\nCourse Highlights\n\nStructured learning path – from fundamentals to advanced techniques\nHands-on coding examples, coding challenges and projects\nPractical focus – concepts applied directly to problem-solving and application design\nUp-to-date content – using the latest C# and .NET features\nFor all levels – accessible to beginners, valuable to experienced developers\n\n\n\nWho Is This Course For?\n\nBeginners with little or no prior programming experience\nStudents looking to strengthen their coding foundation\nProfessionals seeking to upgrade their skills in C# and .NET\nDevelopers transitioning from other languages to C#\n\n👉 By the end of this course, you will have the knowledge and confidence to design, develop and deploy robust applications using C#.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "C# Programming"
+    ]
+  },
+  {
+    "objectID": "HowTo/index.html",
+    "href": "HowTo/index.html",
+    "title": "How-To Guides",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHow to Build a Custom Explosion Indicator in cTrader\n\n4 min\n\n\nChris Vassiliou\n\n\nSep 9, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "Courses/Forex/index.html",
+    "href": "Courses/Forex/index.html",
+    "title": "Forex Trading",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Courses/CSharp/references.html",
+    "href": "Courses/CSharp/references.html",
+    "title": "References ",
+    "section": "",
+    "text": "C# Version History\n\n\n\n Back to top",
+    "crumbs": [
+      "References {{< fa arrow-up-right-from-square >}}"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch11/notes11.html",
+    "href": "Courses/CSharp/Ch11/notes11.html",
+    "title": "11. ???",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\n\n Back to top",
+    "crumbs": [
+      "Intermediate",
+      "11. ???"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch02/notes02.html#if-else-statement",
+    "href": "Courses/CSharp/Ch02/notes02.html#if-else-statement",
+    "title": "2. Decision Making",
+    "section": "if else Statement",
+    "text": "if else Statement",
+    "crumbs": [
+      "Beginner",
+      "2. Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch02/notes02.html#nested-if-statements",
+    "href": "Courses/CSharp/Ch02/notes02.html#nested-if-statements",
+    "title": "2. Decision Making",
+    "section": "Nested if Statements",
+    "text": "Nested if Statements",
+    "crumbs": [
+      "Beginner",
+      "2. Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch02/notes02.html#switch-statement",
+    "href": "Courses/CSharp/Ch02/notes02.html#switch-statement",
+    "title": "2. Decision Making",
+    "section": "switch Statement",
+    "text": "switch Statement",
+    "crumbs": [
+      "Beginner",
+      "2. Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch02/notes02.html#nested-switch-statements",
+    "href": "Courses/CSharp/Ch02/notes02.html#nested-switch-statements",
+    "title": "2. Decision Making",
+    "section": "Nested switch Statements",
+    "text": "Nested switch Statements",
+    "crumbs": [
+      "Beginner",
+      "2. Decision Making"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#what-is-binary",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#what-is-binary",
+    "title": "Appendix A - Binary System",
+    "section": "",
+    "text": "The binary system (base-2) is the foundation of digital computers. Unlike the decimal system (base-10) which uses digits [0-9], binary uses only two digits [0,1].\n0 → OFF / False\n1 → ON / True",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-binary-to-decimal",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-binary-to-decimal",
+    "title": "Appendix A - Binary System",
+    "section": "Converting Binary to Decimal",
+    "text": "Converting Binary to Decimal\nEach binary digit (bit) has a place value that is a power of 2:\n\n\n\nBinary\n1\n0\n1\n1\n0\n\n\nPlace\n4\n3\n2\n1\n0\n\n\nPlace value\n24 = 16\n23 = 8\n22 = 4\n21 = 2\n20 = 1\n\n\nValue\n(1 x 16)\n(0 x 8)\n(1 x 4)\n(1 x 2)\n(0 x 1)\n\n\n\nSo 101102 = (1 x 16) + (0 x 8) + (1 x 4) + (1 x 2) + (0 x 1) = 16 + 0 + 4 + 2 + 0 = 2210",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-decimal-to-binary",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#converting-decimal-to-binary",
+    "title": "Appendix A - Binary System",
+    "section": "Converting Decimal to Binary",
+    "text": "Converting Decimal to Binary\nConvert decimal 45 to binary by repeated division by 2, collecting remainders:\n\n\n\n\n\n\n\n\nDivision Steps\nQuotient\nRemainder\n\n\n\n\n45 ÷ 2\n22\n1\n\n\n22 ÷ 2\n11\n0\n\n\n11 ÷ 2\n5\n1\n\n\n5 ÷ 2\n2\n1\n\n\n2 ÷ 2\n1\n0\n\n\n1 ÷ 2\n0\n1\n\n\n\nRead remainders from bottom to top: 101101\nSo 4510 = 1011012",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-addition-digit-by-digit",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-addition-digit-by-digit",
+    "title": "Appendix A - Binary System",
+    "section": "Binary Addition (Digit-by-Digit)",
+    "text": "Binary Addition (Digit-by-Digit)\nExample: 10112 (11) + 11012 (13)\nAdd from LSB to MSB, tracking carry:\n1 0 1 1\n1 1 0 1 +\n\n\n\n\n\n\n\n\nAddition Steps\nSum Bit\nCarry Bit\n\n\n\n\n1 + 1\n0\n1\n\n\n1 + 0 + 1\n0\n1\n\n\n0 + 1 + 1\n0\n1\n\n\n1 + 1 + 1\n1\n1\n\n\n\nFinal carry becomes new MSB\nResult bits (MSB→LSB): 1 1 0 0 0\nSo 10112 + 11012 = 110002 = 2410",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#negative-numbers",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#negative-numbers",
+    "title": "Appendix A - Binary System",
+    "section": "Negative Numbers",
+    "text": "Negative Numbers\nComputers usually use two’s complement.\nTo get a negative number, invert all its bits and add 1.\n+5 = 00000101\nInvert → 11111010\nAdd 1 → 11111011",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-subtraction",
+    "href": "Courses/CSharp/Appendices/appendixA-binary-system.html#binary-subtraction",
+    "title": "Appendix A - Binary System",
+    "section": "Binary Subtraction",
+    "text": "Binary Subtraction\nUsually done by adding the two’s complement of the the number to be subtracted.\nExample: 7 - 3 = 4:\n7 = 0111\n3 = 0011 → two’s complement: invert 1100 + 1 = 1101\nAdd: 0111 + 1101 = 0100 (with final carry discarded) → 0100 = 4",
+    "crumbs": [
+      "Appendices",
+      "Appendix A - Binary System"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Chris Vassiliou",
+    "section": "",
+    "text": "I am an educator, developer and trader with experience in the areas of:\nI create courses that combine real-world knowledge with practical examples."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Chris Vassiliou",
+    "section": "Education",
+    "text": "Education\nCalifornia State University, Northridge CSUN Los Angeles, USA\nMaster of Science in Computer Engineering | Sep 1984 - Sep 1986\nUniversity of California, Los Angeles UCLA Los Angeles, USA\nBachelor of Science in Mathematics | Sep 1980 – Sep 1984"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Chris Vassiliou",
+    "section": "Experience",
+    "text": "Experience\nHellenic American Union - Athens\nProctor | May 2024 – present\n\nMagna Trust Securities & Investment Services S.A. - Athens\nSenior Operations Manager | Sep 2019 – Dec 2024\nPresident & CEO | Mar 2016 – Oct 2018\nRisk Manager | Mar 2015 – Mar 2016\n\nPiraeus Bank - Athens\nAssistant Manager – Risk Management | Mar 2012 – Dec 2014\nSenior Business Analyst – Credit Division | Mar 2008 – Mar 2012\nDeveloper – IT Division | Mar 1999 – Mar 2008\n\nNational Westminster Bank - Athens\nSoftware Engineer – IT Department | Sep 1994 – Mar 1999\n\nNational Bank of Greece - Athens\nSoftware Engineer – IT Department | Aug 1993 – Aug 1994\n\nAthens College - Athens\nInstructor - Computer Science Department | Sep 1991 – May 1993\n\nSoutheastern College - Athens\nInstructor - Computer Science Department | Mar 1987 – Sep 1990"
+  },
+  {
+    "objectID": "Courses/ASPNET/index.html",
+    "href": "Courses/ASPNET/index.html",
+    "title": "ASP.NET Core Development",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html",
+    "href": "Courses/CSharp/Ch01/notes01.html",
+    "title": "1. Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html#output-methods",
+    "href": "Courses/CSharp/Ch01/notes01.html#output-methods",
+    "title": "1. Language Basics",
+    "section": "",
+    "text": "There are basically two methods used to print information within a program.\n\n\n\nMethod\nDescription\n\n\n\n\nConsole.Write()\nPrints info on a line.\n\n\nConsole.WriteLine()\nPrints info on a line followed by a new line.\n\n\n\n\n\nWrite()▶ RunWriteLine()▶ Run\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\n\n\nConsole.Write(\"This is line one.\");\nConsole.Write(\"This is line two.\");\nThis is line one.This is line two.\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\n\n\nConsole.WriteLine(\"This is line one.\");\nConsole.WriteLine(\"This is line two.\");\nThis is line one.\nThis is line two.",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html#comments",
+    "href": "Courses/CSharp/Ch01/notes01.html#comments",
+    "title": "1. Language Basics",
+    "section": "Comments",
+    "text": "Comments\n\n\n\n\n\n\nWhat is a comment?\n\n\n\n\nA comment is a text note that is ignored by a program.\nIt helps document a program for better readability and understanding of logic.\nIt temporarily disables part of a program during debugging.\n\n\n\n\n\n\n\n\n\n\nTypes of comments\n\n\n\n\nSingle-line comment. Begins with //\nMultiple-line comment. Begins with /* and ends with */",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html#variables-and-data-types",
+    "href": "Courses/CSharp/Ch01/notes01.html#variables-and-data-types",
+    "title": "1. Language Basics",
+    "section": "Variables and Data Types",
+    "text": "Variables and Data Types\n\n\n\n\n\n\nWhat is a variable?\n\n\n\nA variable is a location in computer memory. It has a name (identifier) and a value (literal).\n\n\n\n\n\n\n\n\nflowchart BT\n  subgraph sub2[\"memory\"]\n      sub2Content[\"20\"]\n  end\n\n  subgraph sub1[\" \"]\n      sub1Content[\"X\"]\n  end\n\n  varName[\"variable name\"] --&gt; sub1Content\n  varValue[\"variable value\"] --&gt; sub2Content                                                                                                             \n\n  %% Styling.\n  style sub1 stroke:none, fill:none\n  style sub2 stroke:black, stroke-width:1px, rx:10, ry:10\n  style sub1Content stroke:none, fill:none\n  style sub2Content stroke:none, fill:none\n  style varName stroke:none, fill:none\n  style varValue stroke:none, fill:none\n\n  linkStyle default stroke:red, stroke-width:4px\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is a data type?\n\n\n\nA data type is a description of the type of data a variable can store.",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html#exercises",
+    "href": "Courses/CSharp/Ch01/notes01.html#exercises",
+    "title": "1. Language Basics",
+    "section": "Exercises",
+    "text": "Exercises\n\nExercise.1\n\n\nExercise.2",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch01/notes01.html#assignments",
+    "href": "Courses/CSharp/Ch01/notes01.html#assignments",
+    "title": "1. Language Basics",
+    "section": "Assignments",
+    "text": "Assignments\n\nAssignment.1\n\n\nAssignment.2",
+    "crumbs": [
+      "Beginner",
+      "1. Language Basics"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03/notes03.html#while-loops",
+    "href": "Courses/CSharp/Ch03/notes03.html#while-loops",
+    "title": "3. Iterations (Loops)",
+    "section": "while Loops",
+    "text": "while Loops",
+    "crumbs": [
+      "Beginner",
+      "3. Iterations (Loops)"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03/notes03.html#do-while-loops",
+    "href": "Courses/CSharp/Ch03/notes03.html#do-while-loops",
+    "title": "3. Iterations (Loops)",
+    "section": "do while Loops",
+    "text": "do while Loops",
+    "crumbs": [
+      "Beginner",
+      "3. Iterations (Loops)"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03/notes03.html#nested-loops",
+    "href": "Courses/CSharp/Ch03/notes03.html#nested-loops",
+    "title": "3. Iterations (Loops)",
+    "section": "Nested Loops",
+    "text": "Nested Loops",
+    "crumbs": [
+      "Beginner",
+      "3. Iterations (Loops)"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03/notes03.html#break-statement",
+    "href": "Courses/CSharp/Ch03/notes03.html#break-statement",
+    "title": "3. Iterations (Loops)",
+    "section": "break Statement",
+    "text": "break Statement",
+    "crumbs": [
+      "Beginner",
+      "3. Iterations (Loops)"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch03/notes03.html#continue-statement",
+    "href": "Courses/CSharp/Ch03/notes03.html#continue-statement",
+    "title": "3. Iterations (Loops)",
+    "section": "continue Statement",
+    "text": "continue Statement",
+    "crumbs": [
+      "Beginner",
+      "3. Iterations (Loops)"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/Ch21/notes21.html",
+    "href": "Courses/CSharp/Ch21/notes21.html",
+    "title": "21. ???",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\n\n\n\n Back to top",
+    "crumbs": [
+      "<span style=\"color:#e0095f; font-size:1.2rem;\">★★★</span> Advanced",
+      "21. ???"
+    ]
+  },
+  {
+    "objectID": "Courses/CSharp/syllabus.html",
+    "href": "Courses/CSharp/syllabus.html",
+    "title": "Syllabus ",
+    "section": "",
+    "text": "This is the C# Programming syllabus.\n\n\n\n Back to top",
+    "crumbs": [
+      "Syllabus {{< fa list >}}"
+    ]
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html",
+    "href": "HowTo/fx-custom-explosion-indicator.html",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "",
+    "text": "In this guide, we’ll create a Custom Explosion Indicator for cTrader using cAlgo API in C#.\nThe indicator combines three technical tools:\n\nMACD (for trend direction)\n\nBollinger Bands (for market volatility width)\n\nATR (for dynamic thresholding)\n\nIt outputs bullish/bearish trend histograms, an explosion line, a threshold line and buy/sell signals when conditions are met."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#overview",
+    "href": "HowTo/fx-custom-explosion-indicator.html#overview",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "",
+    "text": "In this guide, we’ll create a Custom Explosion Indicator for cTrader using cAlgo API in C#.\nThe indicator combines three technical tools:\n\nMACD (for trend direction)\n\nBollinger Bands (for market volatility width)\n\nATR (for dynamic thresholding)\n\nIt outputs bullish/bearish trend histograms, an explosion line, a threshold line and buy/sell signals when conditions are met."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#prerequisites",
+    "href": "HowTo/fx-custom-explosion-indicator.html#prerequisites",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore starting, you should have:\n\nBasic familiarity with C# programming.\n\ncTrader installed (with access to the cAlgo API).\n\nUnderstanding of MACD, Bollinger Bands and ATR indicators."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-1-define-input-parameters",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-1-define-input-parameters",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 1 — Define Input Parameters",
+    "text": "Step 1 — Define Input Parameters\nWe start by exposing configurable parameters for Bollinger Bands and MACD:\n[Parameter(\"Period\", Group = \"Bollinger Bands\", DefaultValue = 10)]\npublic int InpBBPeriod { get; set; }\n\n[Parameter(\"Standard Deviation\", Group = \"Bollinger Bands\", DefaultValue = 2, MinValue = 0)]\npublic double InpBBStDev { get; set; }\n\n[Parameter(\"Long Period\", Group = \"MACD\", DefaultValue = 20)]\npublic int InpMACDLongPeriod { get; set; }\n\n[Parameter(\"Short Period\", Group = \"MACD\", DefaultValue = 10)]\npublic int InpMACDShortPeriod { get; set; }"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-2-declare-outputs",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-2-declare-outputs",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 2 — Declare Outputs",
+    "text": "Step 2 — Declare Outputs\nWe define the output series (plotted on the chart):\n\nBullish & Bearish trend histograms.\nExplosion and Threshold lines.\nBuy & Sell signals (plotted as points).\n\n[Output(\"Bullish Trend\", LineColor = \"DarkGreen\", PlotType = PlotType.Histogram, Thickness = 5)]\npublic IndicatorDataSeries BullishTrend { get; set; }\n\n[Output(\"Bearish Trend\", LineColor = \"Maroon\", PlotType = PlotType.Histogram, Thickness = 5)]\npublic IndicatorDataSeries BearishTrend { get; set; }\n\n[Output(\"Explosion\", LineColor = \"Red\", PlotType = PlotType.Line,Thickness = 1)]\npublic IndicatorDataSeries Explosion { get; set; }\n\n[Output(\"Threshold\", LineColor = \"Yellow\", PlotType = PlotType.Line, Thickness = 1)]\npublic IndicatorDataSeries Threshold { get; set; }\n\n[Output(\"Buy Signal\", LineColor = \"Lime\", PlotType = PlotType.Points, Thickness = 5)]\npublic IndicatorDataSeries BuySignal { get; set; }\n\n[Output(\"Sell Signal\", LineColor = \"Magenta\", PlotType = PlotType.Points, Thickness = 5)]\npublic IndicatorDataSeries SellSignal { get; set; }"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-3-initialize-indicators",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-3-initialize-indicators",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 3 — Initialize Indicators",
+    "text": "Step 3 — Initialize Indicators\nInside Initialize(), we set up references to MACD, Bollinger Bands and ATR:\nprivate MacdCrossOver mMACD;\nprivate BollingerBands mBB;\nprivate AverageTrueRange mATR;\nprivate double TrendDir;\n\nprotected override void Initialize()\n{\n    mMACD = Indicators.MacdCrossOver(Bars.ClosePrices, InpMACDLongPeriod, InpMACDShortPeriod, 9);\n    mBB   = Indicators.BollingerBands(Bars.ClosePrices, InpBBPeriod, InpBBStDev, MovingAverageType.Simple);\n    mATR  = Indicators.AverageTrueRange(14, MovingAverageType.Exponential);\n}"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-4-implement-the-logic",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-4-implement-the-logic",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 4 — Implement the Logic",
+    "text": "Step 4 — Implement the Logic\nThe core of the indicator is in the Calculate() method:\n\nReset buy/sell signals.\nMeasure trend direction from MACD slope.\nPlot bullish/bearish histograms.\nCompute Explosion as BB width.\nCompute Threshold as ATR × 5.\nGenerate signals if explosion and trend exceed thresholds.\n\npublic override void Calculate(int i)\n{\n    BuySignal[i] = double.NaN;\n    SellSignal[i] = double.NaN;            \n\n    TrendDir = (mMACD.MACD[i] - mMACD.MACD[i - 1]) * 100;\n\n    if (TrendDir &gt;= 0)\n       BullishTrend[i] = TrendDir;\n    else\n       BearishTrend[i] = -1 * TrendDir;\n\n    Explosion[i] = mBB.Top[i] - mBB.Bottom[i];\n    Threshold[i] = mATR.Result[i] * 5.0;\n\n    bool BullishTrendGreaterThanExplosion = BullishTrend[i] &gt; Explosion[i];\n    bool BearishTrendGreaterThanExplosion = BearishTrend[i] &gt; Explosion[i];\n    bool BullishTrendGreaterThanThreshold = BullishTrend[i] &gt; Threshold[i];\n    bool BearishTrendGreaterThanThreshold = BearishTrend[i] &gt; Threshold[i];\n    bool ExplosionGreaterThanThreshold = Explosion[i] &gt; Threshold[i];\n\n    if (BullishTrendGreaterThanExplosion && BullishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)\n        BuySignal[i] = BullishTrend[i];\n    else if (BearishTrendGreaterThanExplosion && BearishTrendGreaterThanThreshold && ExplosionGreaterThanThreshold)\n        SellSignal[i] = BearishTrend[i];\n}"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#step-5-use-the-indicator",
+    "href": "HowTo/fx-custom-explosion-indicator.html#step-5-use-the-indicator",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Step 5 — Use the Indicator",
+    "text": "Step 5 — Use the Indicator\n\nAttach the indicator to a chart in cTrader.\nAdjust Bollinger Band period, MACD parameters and threshold multiplier to fit your strategy.\nBuy signals (green points) appear during bullish explosions.\nSell signals (magenta points) appear during bearish explosions."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#indicator-screenshot",
+    "href": "HowTo/fx-custom-explosion-indicator.html#indicator-screenshot",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Indicator Screenshot",
+    "text": "Indicator Screenshot\nHere’s how the Custom Explosion Indicator looks in cTrader:\n\n\n\nCustom Explosion Indicator screenshot"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#troubleshooting-tips",
+    "href": "HowTo/fx-custom-explosion-indicator.html#troubleshooting-tips",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Troubleshooting & Tips",
+    "text": "Troubleshooting & Tips\n\nIf signals are too frequent, increase the ATR multiplier.\nIf signals are too rare, decrease the ATR multiplier or shorten MACD periods.\nWorks best on volatile instruments like US30 or NASDAQ."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#summary",
+    "href": "HowTo/fx-custom-explosion-indicator.html#summary",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Summary",
+    "text": "Summary\nWe have built a Custom Explosion Indicator in cTrader by combining MACD, Bollinger Bands and ATR. This indicator detects strong bullish or bearish bursts (explosions) and highlights potential entry points."
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#further-reading",
+    "href": "HowTo/fx-custom-explosion-indicator.html#further-reading",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Further Reading",
+    "text": "Further Reading\ncTrader Automate API Documentation\nMACD Indicator Basics\nBollinger Bands\nATR Explained"
+  },
+  {
+    "objectID": "HowTo/fx-custom-explosion-indicator.html#download-source-code",
+    "href": "HowTo/fx-custom-explosion-indicator.html#download-source-code",
+    "title": "How to Build a Custom Explosion Indicator in cTrader",
+    "section": "Download Source Code",
+    "text": "Download Source Code\n Download Source"
+  },
+  {
+    "objectID": "Courses/CSharp/Appendices/appendixB-compilers.html",
+    "href": "Courses/CSharp/Appendices/appendixB-compilers.html",
+    "title": "Appendix B - Compilers",
+    "section": "",
+    "text": "What is a Compiler?\n\nA compiler is a special program that translates source code (written by humans in a high-level programming language like C#, Java, or C++) into machine code that a computer can execute directly.\nHigh-level language (HLL): Easy for humans to read/write. (e.g., Console.WriteLine(“Hello”);)\nMachine language: Binary instructions (0s and 1s) understood by the CPU.\nCompiler’s role: Act as a bridge between these two worlds.\nDiagram: General Compilation Process Source Code (C#, C++, Java, etc.) | v [ Compiler ] | v Machine Code / Executable File\n\nSteps in Compilation (General Theory)\n\nMost compilers go through several well-defined phases:\nLexical Analysis Breaks the source code into tokens (keywords, identifiers, operators, etc.).\nSyntax Analysis (Parsing) Ensures code follows language grammar. Produces a parse tree/AST (Abstract Syntax Tree).\nSemantic Analysis Checks meaning: variable types, scope rules, function calls, etc.\nIntermediate Code Generation Translates AST into an intermediate representation (IR), easier to optimize.\nOptimization Improves code efficiency (speed, memory usage).\nCode Generation Converts IR into target machine code (e.g., x86, ARM).\nLinking Combines compiled code with libraries and runtime support into an executable file.\nDiagram: Detailed Compilation Pipeline Source Code | v +——————+ | Lexical Analysis | +——————+ | v +——————+ | Syntax Analysis | +——————+ | v +——————+ | Semantic Analysis| +——————+ | v +—————————–+ | Intermediate Representation | +—————————–+ | v +——————+ | Optimization | +——————+ | v +——————+ | Code Generation | +——————+ | v Executable File\n\nHow a Microsoft C# Compiler Works\n\nC# compilation is a bit different from traditional compilers because it is designed to run on the .NET platform.\nThe Microsoft C# compiler (csc.exe) does not compile directly into machine code. Instead, it produces an Intermediate Language (IL) file (also called MSIL or CIL), which is then executed by the .NET runtime (CLR - Common Language Runtime).\nStep-by-Step Compilation in C#\nSource Code (C#) Example:\nusing System; class Program { static void Main() { Console.WriteLine(“Hello, World!”); } }\nC# Compiler (csc.exe) Converts source into CIL (Common Intermediate Language) and stores it in an assembly (.exe or .dll).\ncsc Program.cs –&gt; Program.exe (CIL code inside)\nExecution (CLR – Common Language Runtime) When you run the program:\nThe CLR’s JIT (Just-In-Time Compiler) compiles CIL into native machine code.\nThe native code is executed by the CPU.\nDiagram: C# Compilation and Execution C# Source Code | v [C# Compiler] | v Intermediate Language (IL) + Metadata | v [.exe / .dll Assembly] | v CLR (Common Language Runtime) | v [JIT Compilation to Machine Code] | v Execution on CPU\n\nKey Features of the C# Compilation Model\n\nPortable IL Code: The IL is platform-agnostic, so the same .exe can run on Windows, Linux, or macOS (via .NET runtime).\nMetadata: Assemblies contain type information, method signatures, and security details for runtime checks.\nJIT vs. AOT:\nJIT (Just-In-Time): Compiles IL to native code at runtime (default).\nAOT (Ahead-Of-Time): Possible with tools like NativeAOT to precompile to machine code.\n\nSummary\n\nA compiler translates human-readable code into machine-executable form.\nIn general, compilers work in multiple phases: lexical, syntax, semantic, optimization, code generation.\nThe Microsoft C# compiler (csc.exe) generates Intermediate Language (IL), stored in an assembly (.exe or .dll).\nThe CLR (Common Language Runtime) uses a JIT compiler to translate IL into machine code at runtime.\nThis two-step approach (compile to IL, then JIT to native) allows C# programs to be portable, secure, and optimized.\n\n\n\n Back to top",
+    "crumbs": [
+      "Appendices",
+      "Appendix B - Compilers"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Creative Ventures’ learning portal",
+    "section": "",
+    "text": "This is a collection of courses in programming, web development and trading.\n\n\n C# Programming - Learn the fundamentals and advanced features of C#.\n ASP.NET Core Development - Build powerful web apps using Blazor and modern .NET tools.\n Forex Trading - Master strategies, risk management and automation.\n\n\n\n\n Back to top"
+  }
+]

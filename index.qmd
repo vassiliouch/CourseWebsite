@@ -1,5 +1,6 @@
 ---
 title: "Welcome to Creative Ventures' learning portal"
+pagetitle: "Chris Vassiliou"
 ---
 
 ![](Assets/logo-full.png){style="height:10rem;"}

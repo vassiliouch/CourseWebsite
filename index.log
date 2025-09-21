@@ -1,0 +1,61 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.7.29)  20 SEP 2025 17:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./index.tex
+(index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crartcl.cls
+Document Class: scrartcl 2025/06/04 v3.45 KOMA-Script document class (article)
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crkbase.sty
+Package: scrkbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crbase.sty
+Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crlfile.sty
+Package: scrlfile 2025/06/04 v3.45 KOMA-Script package (file load hooks)
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crlfile-hook.sty
+Package: scrlfile-hook 2025/06/04 v3.45 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
+crlogo.sty
+Package: scrlogo 2025/06/04 v3.45 KOMA-Script package (logo)
+)))
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
+al.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+))
+(C:\Users\Chris Vassiliou\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\t
+ocbasic.sty
+Package: tocbasic 2025/06/04 v3.45 KOMA-Script package (handling toc-files)
+! Undefined control sequence.
+l.510 \IfPackageLoadedF
+                       {tocbibind}{% 
+Here is how much of TeX's memory you used:
+ 748 strings out of 409616
+ 15039 string characters out of 5771962
+ 1917191 words of memory out of 5000000
+ 22905 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 108i,0n,107p,287b,17s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+No pages of output.

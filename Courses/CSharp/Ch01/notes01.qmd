@@ -77,7 +77,7 @@ A variable is a location in computer memory. It has a name (identifier) and a va
 
 :::
 
-![](Assets/variable-memory.png){width=50%}
+![](Assets/variable-memory.png){width="50%"}
 
 ```{mermaid}
 flowchart BT
